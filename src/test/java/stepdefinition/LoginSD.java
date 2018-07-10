@@ -1,5 +1,6 @@
 package stepdefinition;
 
+import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import framework.HomePage;
@@ -14,6 +15,11 @@ public class LoginSD {
 
     HomePage homePage = new HomePage();
     LoginPage loginPage = new LoginPage();
+
+    @Given("^I am on the Threely home page$")
+        public void iAmOntheThreelyHomePage(){
+        Assert.assertEquals(SharedSD.getDriver().getTitle(),"Threely Starter Template","YOU ARE NOT IN HOME PAGE");
+    }
 
     @When("^I click on Sign in button$")
     public void iClickOnSignInButton(){
