@@ -1,0 +1,16 @@
+framework/BasePage$1.class
+stepdefinition/SharedSD.class
+stepdefinition/InvalidEmailSD.class
+stepdefinition/TotalPostsSD.class
+framework/AddToCardPage.class
+framework/LoginPage.class
+utility/Utils.class
+framework/TestRunner.class
+framework/AddToCardVerificationPage.class
+stepdefinition/IosSD.class
+utility/ConfigReader.class
+framework/Test.class
+stepdefinition/validRegistrationSD.class
+framework/HomePage.class
+stepdefinition/LoginSD.class
+framework/BasePage.class

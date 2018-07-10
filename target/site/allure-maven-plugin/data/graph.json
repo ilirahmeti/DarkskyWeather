@@ -1,0 +1,58 @@
+{
+  "testCases" : [ {
+    "uid" : "8d569dcdaa5233c9",
+    "name" : "Given I am on home page of Threely",
+    "title" : "Given I am on home page of Threely",
+    "time" : {
+      "start" : 1531207407071,
+      "stop" : 1531207407073,
+      "duration" : 2
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "b4fd918aac0b4e23",
+    "name" : "Then I verify 57 total post is displayed",
+    "title" : "Then I verify 57 total post is displayed",
+    "time" : {
+      "start" : 1531207407979,
+      "stop" : 1531207407979,
+      "duration" : 0
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "16ffc5d932180e46",
+    "name" : "And I verify all post has price tag",
+    "title" : "And I verify all post has price tag",
+    "time" : {
+      "start" : 1531207408933,
+      "stop" : 1531207408933,
+      "duration" : 0
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "46092920a8fec1aa",
+    "name" : "And I verify all post has title",
+    "title" : "And I verify all post has title",
+    "time" : {
+      "start" : 1531207409812,
+      "stop" : 1531207409812,
+      "duration" : 0
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "cb7e3026d161ee84",
+    "name" : "And I verify all post has displayed image",
+    "title" : "And I verify all post has displayed image",
+    "time" : {
+      "start" : 1531207410308,
+      "stop" : 1531207410308,
+      "duration" : 0
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  } ]
+}

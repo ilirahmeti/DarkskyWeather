@@ -1,0 +1,53 @@
+{
+  "uid" : "46092920a8fec1aa",
+  "name" : "And I verify all post has title",
+  "title" : "And I verify all post has title",
+  "time" : {
+    "start" : 1531207409812,
+    "stop" : 1531207409812,
+    "duration" : 0
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "f3fb7ca705bfa99a",
+    "name" : "UnknownTestSuite",
+    "title" : "Unknown test suite"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : ""
+  }, {
+    "name" : "suite-name",
+    "value" : ""
+  }, {
+    "name" : "host",
+    "value" : "ilirs-MacBook-Pro-2.local"
+  }, {
+    "name" : "suite-title",
+    "value" : ""
+  }, {
+    "name" : "feature",
+    "value" : ""
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "thread",
+    "value" : "6895@ilirs-MacBook-Pro-2.local.main(1)"
+  } ],
+  "parameters" : [ ]
+}
