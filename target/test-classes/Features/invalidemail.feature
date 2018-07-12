@@ -4,6 +4,7 @@
 
 
 Scenario Outline: Verify invalid email on registration
+
 Given I am on the Registration page
 When I enter name as "ilirahmeti" email as <email> password as "test12345"
 And I click on 'submit' button

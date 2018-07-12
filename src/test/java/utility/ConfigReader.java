@@ -10,6 +10,10 @@ public class ConfigReader {
 
     String url;
     String driverLocation;
+    String run_test;
+    String browser;
+    String platform;
+    String version;
 
    public ConfigReader() {
         Properties prop = new Properties();
@@ -20,6 +24,10 @@ public class ConfigReader {
             prop.load(input);
             this.url = prop.getProperty("url");
             this.driverLocation = prop.getProperty("driver_location");
+            this.run_test = prop.getProperty("run_test");
+            this.browser = prop.getProperty("browser");
+            this.platform = prop.getProperty("platform");
+            this.version = prop.getProperty("version");
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -41,5 +49,21 @@ public class ConfigReader {
 
     public String getDriverLocation() {
         return driverLocation;
+    }
+
+    public String getRun_test() {
+        return run_test;
+    }
+
+    public String getBrowser() {
+        return browser;
+    }
+
+    public String getPlatform() {
+        return platform;
+    }
+
+    public String getVersion() {
+        return version;
     }
 }

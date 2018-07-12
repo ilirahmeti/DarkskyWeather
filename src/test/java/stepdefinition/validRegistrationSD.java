@@ -6,6 +6,9 @@ import cucumber.api.java.en.When;
 import framework.HomePage;
 import framework.LoginPage;
 import org.testng.Assert;
+import utility.Utils;
+
+import java.util.Random;
 
 public class validRegistrationSD {
 
@@ -18,11 +21,11 @@ public class validRegistrationSD {
         Assert.assertEquals(SharedSD.getDriver().getTitle(),"Threely Starter Template","YOU ARE NOT IN HOME PAGE");
     }
 
-    @When("^I enter name as \"ilir ahmeti\" email as \"ilirahmeti4@gmail.com\" password as \"ilir1357\"$")
-    public void iEnterNameEmailPass() {
+    @When("^I enter name as \"testuser\" email as \"(.+)\" password as \"test12345\"$")
+    public void iEnterNameEmailPass(String anyEmail) {
         homePage.clickOnJoinButton();
         homePage.enterName();
-        homePage.enterGmail();
+        homePage.enterGmail(Utils.change());
         homePage.enterGmailPass();
     }
 

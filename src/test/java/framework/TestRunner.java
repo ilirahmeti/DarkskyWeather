@@ -10,15 +10,15 @@ import org.junit.runner.RunWith;
         //This create auto method name in camelCase
         snippets = cucumber.api.SnippetType.CAMELCASE,
 
-        features = {"src/test/resources/features"},
+        features = {"src/test/Resources/features"},
         // Specify tags to be executed
-        tags = {"@regression"},
+        tags = {"@invalidemail"},
         //Specify step definition package name (Note: make sure to have this package on current directory)
         glue = {"stepdefinition"}
-
 )
 
 public class TestRunner {
 
 
 }
+

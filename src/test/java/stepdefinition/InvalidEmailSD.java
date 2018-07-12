@@ -14,12 +14,12 @@ public class InvalidEmailSD {
 
     @Given("^I am on the Registration page$")
     public void iAmOnRegistrationPage() {
+        homePage.clickOnJoinButton();
         Assert.assertEquals(SharedSD.getDriver().getTitle(),"Threely Starter Template","YOU ARE NOT IN HOME PAGE");
     }
 
-    @When("^I enter name as \"ilirahmeti\" email as (.+) password as \"test12345\"$")
+    @When("^I enter name as \"test user\" email as (.+) password as \"test12345\"$")
            public void iEnterNameEmailPas(String anyEmail){
-        homePage.clickOnJoinButton();
         homePage.enterName();
         homePage.enterWrongEmail(anyEmail);
         homePage.enterGmailPass();

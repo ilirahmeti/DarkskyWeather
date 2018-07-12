@@ -1,33 +1,12 @@
 @regression @login
 
-Feature:
-  Verifying invalid login
+Feature: Login Page
 
-  @login-1
-  Scenario:
-    Verifying invalid login
+Scenario: Verify valid login
 
-    Given I am on the Threely home page
-    When I click on Sign in button
-    And I enter ilirahmeti@yahoo.com on the email field
-    And I enter testingPass on the password field
-    And I click on Submit button
-    Then I verify that I am an invalid log in
-
-@login-2
-  Scenario:
-  Verifying Valid login
-
-    Given I am on the Threely home page
-    When I click on Sign in button
-    And I enter ilirahmeti@yahoo.com on the email field
-    And I enter ilir1357 on the password field
-    And I click on Submit button
-    Then I verify that I am a Valid log in
-
-
-
-
-
+Given User is on the Threely login page
+When I enter username as “n12345@test.com” and password as “123456”
+And I click on submit button
+Then I verify logout button is displayed
 
 

@@ -43,12 +43,16 @@ public class HomePage extends BasePage {
     }
 
     public static void enterName() {
-        sendText(nameField, "ilir ahmeti");
+        sendText(nameField, "testuser");
     }
 
-    public static void enterGmail() {
-        sendText(gmailField, "ilirahmeti4@gmail.com");
+    public static void enterGmail(String text) {
+        sendText(gmailField, text);
+
     }
+
+
+
     public static void enterWrongEmail(String text) {
         sendText(wrongEmailField, text);
     }

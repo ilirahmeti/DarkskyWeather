@@ -8,6 +8,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import stepdefinition.SharedSD;
 
 import java.util.List;
+import java.util.Random;
 
 public class Utils extends BasePage {
 
@@ -23,30 +24,30 @@ public class Utils extends BasePage {
         return totalPosts;
     }
 
-    public static int totalPriceTags(){
+    public static int totalPriceTags() {
 
         List<WebElement> list = SharedSD.getDriver().findElements(By.xpath("//div[@class='container section']//descendant::div[@class='gig-card']"));
         int totalPricetags = 0;
         for (WebElement i : list) {
-            if (i.getText().contains("$")){
+            if (i.getText().contains("$")) {
                 totalPricetags++;
             }
         }
         return totalPricetags;
     }
 
-    public static int totalPostTitles(){
+    public static int totalPostTitles() {
         List<WebElement> list = SharedSD.getDriver().findElements(By.xpath("//h4"));
         int totalPosttitles = 0;
         for (WebElement i : list) {
-            if (!i.getText().equals("")){
+            if (!i.getText().equals("")) {
                 totalPosttitles++;
             }
         }
         return totalPosttitles;
     }
 
-    public static int totalDisplayedImg(){
+    public static int totalDisplayedImg() {
         List<WebElement> list = SharedSD.getDriver().findElements(By.xpath("//*[contains(@src,'jpg')]"));
         int totalDisplayedimg = 0;
         for (WebElement i : list) {
@@ -55,15 +56,23 @@ public class Utils extends BasePage {
         return totalDisplayedimg;
     }
 
-    public static boolean itDisplays(){
+    public static boolean itDisplays() {
 
-       WebElement ele3 = browser(By.xpath("//div[@class='aa-dataset-1']"));
-        WebDriverWait wait = new WebDriverWait(SharedSD.getDriver(),10);
+        WebElement ele3 = browser(By.xpath("//div[@class='aa-dataset-1']"));
+        WebDriverWait wait = new WebDriverWait(SharedSD.getDriver(), 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class='aa-dataset-1']")));
-        if(ele3.isDisplayed()){
+        if (ele3.isDisplayed()) {
             return true;
-        }else{
+        } else {
             return false;
         }
+    }
+
+    public static String change() {
+            String str;
+            Random rand = new Random();
+            int r = rand.nextInt(100000);
+          return str = "a" + r + "@yahoo.com";
+
     }
 }

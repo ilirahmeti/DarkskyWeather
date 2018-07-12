@@ -13,25 +13,29 @@ public class TotalPostsSD {
     }
 
     @Then("^I verify 57 total post is displayed$")
-    public void iVerify56TotalPostsDisplayed(){
+    public void iVerify57TotalPostsDisplayed(){
         Assert.assertEquals(Utils.totalPostsDisplayed(),57,"DOES NOT EQUAL TOTAL POSTS DISPLAYED");
     }
 
-    @Then("^I verify all post has price tag$")
-    public void iVerifyAllPostsHasPriceTags(){
-        Assert.assertEquals(Utils.totalPriceTags(),57,"WRONG NUMBER PRICES TAGS SHOWN");
+
+    @Then("^I verify all post has (price tag|title|displayed image)$")
+    public void iVerifyAllPostsHas(String something){
+        switch (something){
+            case"price tag":
+                Assert.assertEquals(Utils.totalPriceTags(),57,"WRONG NUMBER PRICES TAGS SHOWN");
+                break;
+            case"title":
+                //this is a fail (NOT ALL POSTS HAVE TITLES.
+                //I HAD TO SWITCH THE NR FROM 57 TO 42 FOR THE TEST TO GO ON
+                Assert.assertEquals(Utils.totalPostTitles(), 42,"WRONG NUMBER OF POST TITLES SHOWN");
+                break;
+            case"displayed image":
+                Assert.assertEquals(Utils.totalDisplayedImg(), 57,"WRONG NUMBER OF IMAGE DISPLAYED SHOWN");
+                break;
+        }
+
     }
 
-    //this is a fail (NOT ALL POSTS HAVE TITLES.
-    //I HAD TO SWITCH THE NR FROM 57 TO 42 FOR THE TEST TO GO ON
-    @Then("^I verify all post has title$")
-    public void iVerifyAllPostHasTitle(){
-        Assert.assertEquals(Utils.totalPostTitles(), 42,"WRONG NUMBER OF POST TITLES SHOWN");
-    }
-
-
-    @Then("^I verify all post has displayed image$")
-    public void iVerifyAllPostHasDisplayedImage(){
-        Assert.assertEquals(Utils.totalDisplayedImg(), 57,"WRONG NUMBER OF IMAGE DISPLAYED SHOWN");
-    }
 }
+
+

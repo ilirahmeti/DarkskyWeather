@@ -16,50 +16,28 @@ public class LoginSD {
     HomePage homePage = new HomePage();
     LoginPage loginPage = new LoginPage();
 
-    @Given("^I am on the Threely home page$")
+    @Given("^User is on the Threely login page$")
         public void iAmOntheThreelyHomePage(){
+        homePage.clickOnSignInButton();
         Assert.assertEquals(SharedSD.getDriver().getTitle(),"Threely Starter Template","YOU ARE NOT IN HOME PAGE");
     }
 
-    @When("^I click on Sign in button$")
-    public void iClickOnSignInButton(){
-        homePage.clickOnSignInButton();
-    }
-
-    @When("^I enter ilirahmeti@yahoo.com on the email field$")
+    @When("^I enter username as “n12345@test.com” and password as “123456”$")
     public void enterEmailOntheEmailField(){
         homePage.enterEmail();
-    }
-
-    @When("^I enter testingPass on the password field$")
-    public void enterPassowrdOnThePassField(){
-        homePage.enterPass();
-    }
-
-
-    @When("^I click on Submit button$")
-    public void iClickOnSubmitButton(){
-        homePage.clickOnSubmitButton();
-    }
-
-    @Then("^I verify that I am an invalid log in$")
-    public void iVerifyInvalidLogin(){
-        Assert.assertEquals(LoginPage.getLoginErrorText(), "Login","VARIFICATION FAILED");
-    }
-
-    @When("^I enter ilir1357 on the password field$")
-    public void enterRightPassowrdOnThePassField(){
         homePage.enterRightPass();
     }
 
+    @When("^I click on submit button$")
+    public void iClickOnSubmitButton() {
+        homePage.clickOnSubmitButton();
+    }
 
-    @Then("^I verify that I am a Valid log in$")
+    @Then("^I verify logout button is displayed")
     public void iVerifyValidLogin(){
         loginPage.clickOnProfilePic();
         Assert.assertEquals(loginPage.getLogoutTextButton(), "Logout", "Verification of valid log in FAILED");
 
     }
-
-
 
 }
