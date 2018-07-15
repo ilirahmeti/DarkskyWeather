@@ -3,29 +3,25 @@ package stepdefinition;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import framework.BasePage;
 import framework.HomePage;
 import framework.LoginPage;
 import org.testng.Assert;
-import utility.Utils;
-
-import java.util.Random;
 
 public class validRegistrationSD {
-
     HomePage homePage = new HomePage();
     LoginPage loginPage = new LoginPage();
 
-
     @Given("^I am on Registration page$")
     public void iAmOnRegistrationPage() {
-        Assert.assertEquals(SharedSD.getDriver().getTitle(),"Threely Starter Template","YOU ARE NOT IN HOME PAGE");
+        homePage.clickOnJoinButton();
+        Assert.assertEquals(homePage.getVerificationText(), "Signup", "YOU ARE NOT IN HOME PAGE");
     }
 
-    @When("^I enter name as \"testuser\" email as \"(.+)\" password as \"test12345\"$")
-    public void iEnterNameEmailPass(String anyEmail) {
-        homePage.clickOnJoinButton();
+    @When("^I enter the name as \"(.+)\" email as \"(.+)\" password as \"(.+)\"$")
+    public void iEnterNameEmailPas(String anyName, String anyEmail, String anyPass) {
         homePage.enterName();
-        homePage.enterGmail(Utils.change());
+        homePage.enterGmail(BasePage.randomEmail());
         homePage.enterGmailPass();
     }
 
@@ -39,5 +35,4 @@ public class validRegistrationSD {
         loginPage.clickOnProfilePic();
         Assert.assertEquals(loginPage.getLogoutTextButton(), "Logout", "Verification of valid log in FAILED");
     }
-
 }

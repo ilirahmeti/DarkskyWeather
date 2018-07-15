@@ -1,10 +1,10 @@
 {
-  "uid" : "cb7e3026d161ee84",
-  "name" : "And I verify all post has displayed image",
-  "title" : "And I verify all post has displayed image",
+  "uid" : "df27c0cb9b34c6d1",
+  "name" : "And I click on submit button",
+  "title" : "And I click on submit button",
   "time" : {
-    "start" : 1531207410308,
-    "stop" : 1531207410308,
+    "start" : 1531618061834,
+    "stop" : 1531618061834,
     "duration" : 0
   },
   "summary" : {
@@ -17,37 +17,37 @@
   "status" : "PASSED",
   "testId" : null,
   "suite" : {
-    "uid" : "f3fb7ca705bfa99a",
-    "name" : "UnknownTestSuite",
-    "title" : "Unknown test suite"
+    "uid" : "cabc86c692041b7e",
+    "name" : "Verify valid login",
+    "title" : "Verify valid login"
   },
   "steps" : [ ],
   "attachments" : [ ],
   "issues" : [ ],
   "labels" : [ {
+    "name" : "suite-title",
+    "value" : "Verify valid login"
+  }, {
     "name" : "language",
     "value" : "JAVA"
-  }, {
-    "name" : "story",
-    "value" : ""
-  }, {
-    "name" : "suite-name",
-    "value" : ""
   }, {
     "name" : "host",
     "value" : "ilirs-MacBook-Pro-2.local"
   }, {
-    "name" : "suite-title",
-    "value" : ""
+    "name" : "suite-name",
+    "value" : "Verify valid login"
   }, {
     "name" : "feature",
-    "value" : ""
+    "value" : "Login Page"
+  }, {
+    "name" : "story",
+    "value" : "Verify valid login"
   }, {
     "name" : "framework",
     "value" : "CucumberJVM"
   }, {
     "name" : "thread",
-    "value" : "6895@ilirs-MacBook-Pro-2.local.main(1)"
+    "value" : "20403@ilirs-MacBook-Pro-2.local.main(1)"
   } ],
   "parameters" : [ ]
 }

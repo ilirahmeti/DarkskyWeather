@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1531618080277" stop="1531618084820" version="1.4.15" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Verify a new user can register with a valid email address</name>
+    <title>Verify a new user can register with a valid email address</title>
+    <test-cases>
+        <test-case start="1531618080278" stop="1531618080278" status="passed">
+            <name>Given I am on Registration page</name>
+            <title>Given I am on Registration page</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="ilirs-MacBook-Pro-2.local"/>
+                <label name="thread" value="20403@ilirs-MacBook-Pro-2.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1531618080603" stop="1531618080603" status="passed">
+            <name>When I enter the name as "testuser" email as "test@test.com" password as "test12345"</name>
+            <title>When I enter the name as "testuser" email as "test@test.com" password as "test12345"</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="ilirs-MacBook-Pro-2.local"/>
+                <label name="thread" value="20403@ilirs-MacBook-Pro-2.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1531618081390" stop="1531618081390" status="passed">
+            <name>And I click 'submit' button</name>
+            <title>And I click 'submit' button</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="ilirs-MacBook-Pro-2.local"/>
+                <label name="thread" value="20403@ilirs-MacBook-Pro-2.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1531618081671" stop="1531618081671" status="passed">
+            <name>Then I am signed-in as a new user</name>
+            <title>Then I am signed-in as a new user</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="ilirs-MacBook-Pro-2.local"/>
+                <label name="thread" value="20403@ilirs-MacBook-Pro-2.local.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Verify a new user can register with a valid email address"/>
+        <label name="feature" value="Valid Registration"/>
+        <label name="framework" value="CucumberJVM"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

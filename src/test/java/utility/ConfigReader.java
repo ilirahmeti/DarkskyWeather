@@ -1,7 +1,6 @@
 package utility;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
@@ -18,7 +17,6 @@ public class ConfigReader {
    public ConfigReader() {
         Properties prop = new Properties();
         InputStream input = null;
-
         try {
             input = new FileInputStream("config.properties");
             prop.load(input);
@@ -31,7 +29,6 @@ public class ConfigReader {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
         finally {
             if (input != null) {
                 try {

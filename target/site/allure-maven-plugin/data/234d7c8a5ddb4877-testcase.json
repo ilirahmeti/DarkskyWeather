@@ -1,0 +1,53 @@
+{
+  "uid" : "234d7c8a5ddb4877",
+  "name" : "Then I am signed-in as a new user",
+  "title" : "Then I am signed-in as a new user",
+  "time" : {
+    "start" : 1531618081671,
+    "stop" : 1531618081671,
+    "duration" : 0
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "46c79532dfea8dc7",
+    "name" : "Verify a new user can register with a valid email address",
+    "title" : "Verify a new user can register with a valid email address"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Verify a new user can register with a valid email address"
+  }, {
+    "name" : "feature",
+    "value" : "Valid Registration"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-name",
+    "value" : "Verify a new user can register with a valid email address"
+  }, {
+    "name" : "host",
+    "value" : "ilirs-MacBook-Pro-2.local"
+  }, {
+    "name" : "suite-title",
+    "value" : "Verify a new user can register with a valid email address"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "thread",
+    "value" : "20403@ilirs-MacBook-Pro-2.local.main(1)"
+  } ],
+  "parameters" : [ ]
+}

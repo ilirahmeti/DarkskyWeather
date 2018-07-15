@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1531618035477" stop="1531618041188" version="1.4.15" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Verify auto complete search result</name>
+    <title>Verify auto complete search result</title>
+    <test-cases>
+        <test-case start="1531618035643" stop="1531618035645" status="passed">
+            <name>Given I am on home page</name>
+            <title>Given I am on home page</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="ilirs-MacBook-Pro-2.local"/>
+                <label name="thread" value="20403@ilirs-MacBook-Pro-2.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1531618035867" stop="1531618035867" status="passed">
+            <name>When I search on top search bar with text "ios"</name>
+            <title>When I search on top search bar with text "ios"</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="ilirs-MacBook-Pro-2.local"/>
+                <label name="thread" value="20403@ilirs-MacBook-Pro-2.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1531618038039" stop="1531618038039" status="passed">
+            <name>Then I verify "Title: I will teach you IOS" as displayed result</name>
+            <title>Then I verify "Title: I will teach you IOS" as displayed result</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="ilirs-MacBook-Pro-2.local"/>
+                <label name="thread" value="20403@ilirs-MacBook-Pro-2.local.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Verify auto complete search result"/>
+        <label name="feature" value="Verify autocomplete"/>
+        <label name="framework" value="CucumberJVM"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

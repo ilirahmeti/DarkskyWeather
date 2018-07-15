@@ -1,0 +1,53 @@
+{
+  "uid" : "33e2ef181e2d8cce",
+  "name" : "When I enter name as \"test user\" email as test@test@test.com password as \"test12345\"",
+  "title" : "When I enter name as \"test user\" email as test@test@test.com password as \"test12345\"",
+  "time" : {
+    "start" : 1531618053201,
+    "stop" : 1531618053201,
+    "duration" : 0
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "ecf51b9ca45811da",
+    "name" : "Verify invalid email on registration | test@test@test.com |",
+    "title" : "Verify invalid email on registration | test@test@test.com |"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "host",
+    "value" : "ilirs-MacBook-Pro-2.local"
+  }, {
+    "name" : "feature",
+    "value" : "Invalid email"
+  }, {
+    "name" : "suite-title",
+    "value" : "Verify invalid email on registration | test@test@test.com |"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "story",
+    "value" : "Verify invalid email on registration | test@test@test.com |"
+  }, {
+    "name" : "thread",
+    "value" : "20403@ilirs-MacBook-Pro-2.local.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "Verify invalid email on registration | test@test@test.com |"
+  } ],
+  "parameters" : [ ]
+}

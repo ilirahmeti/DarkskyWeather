@@ -1,11 +1,11 @@
 {
-  "uid" : "8d569dcdaa5233c9",
+  "uid" : "1710662cb3249108",
   "name" : "Given I am on home page of Threely",
   "title" : "Given I am on home page of Threely",
   "time" : {
-    "start" : 1531207407071,
-    "stop" : 1531207407073,
-    "duration" : 2
+    "start" : 1531618069334,
+    "stop" : 1531618069334,
+    "duration" : 0
   },
   "summary" : {
     "attachments" : 0,
@@ -17,37 +17,37 @@
   "status" : "PASSED",
   "testId" : null,
   "suite" : {
-    "uid" : "f3fb7ca705bfa99a",
-    "name" : "UnknownTestSuite",
-    "title" : "Unknown test suite"
+    "uid" : "e1d7b24650e72888",
+    "name" : "Verify total number of posts on home page",
+    "title" : "Verify total number of posts on home page"
   },
   "steps" : [ ],
   "attachments" : [ ],
   "issues" : [ ],
   "labels" : [ {
+    "name" : "feature",
+    "value" : "Number of Pages"
+  }, {
     "name" : "language",
     "value" : "JAVA"
-  }, {
-    "name" : "story",
-    "value" : ""
-  }, {
-    "name" : "suite-name",
-    "value" : ""
   }, {
     "name" : "host",
     "value" : "ilirs-MacBook-Pro-2.local"
   }, {
-    "name" : "suite-title",
-    "value" : ""
+    "name" : "story",
+    "value" : "Verify total number of posts on home page"
   }, {
-    "name" : "feature",
-    "value" : ""
+    "name" : "suite-name",
+    "value" : "Verify total number of posts on home page"
   }, {
     "name" : "framework",
     "value" : "CucumberJVM"
   }, {
+    "name" : "suite-title",
+    "value" : "Verify total number of posts on home page"
+  }, {
     "name" : "thread",
-    "value" : "6895@ilirs-MacBook-Pro-2.local.main(1)"
+    "value" : "20403@ilirs-MacBook-Pro-2.local.main(1)"
   } ],
   "parameters" : [ ]
 }

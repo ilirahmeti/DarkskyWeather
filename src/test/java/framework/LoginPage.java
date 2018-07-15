@@ -4,25 +4,19 @@ import org.openqa.selenium.By;
 
 public class LoginPage extends BasePage{
 
-    private static By headerVerification = By.xpath("//*[text()='Login']");
-    private static By profileImage = By.xpath("//img[@class='img-circle']");
-    private static By logoutButton = By.xpath("//a[text()='Logout']");
+    private By headerVerification = By.xpath("//*[text()='Login']");
+    private By profileImage = By.xpath("//img[@class='img-circle']");
+    private By logoutButton = By.xpath("//a[text()='Logout']");
 
-
-
-    public static String getLoginErrorText(){
+    public String getLoginHeaderText(){
         return getText(headerVerification);
     }
 
-    public static String getLoginRightText(){
-        return getText(headerVerification);
-    }
-
-    public static void clickOnProfilePic(){
+    public void clickOnProfilePic(){
         clickOn(profileImage);
     }
 
-    public static String getLogoutTextButton(){
+    public String getLogoutTextButton(){
         return getText(logoutButton);
     }
 

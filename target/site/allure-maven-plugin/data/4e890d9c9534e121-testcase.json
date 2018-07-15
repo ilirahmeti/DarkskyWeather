@@ -1,0 +1,53 @@
+{
+  "uid" : "4e890d9c9534e121",
+  "name" : "Then I verify logout button is displayed",
+  "title" : "Then I verify logout button is displayed",
+  "time" : {
+    "start" : 1531618062178,
+    "stop" : 1531618062178,
+    "duration" : 0
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "cabc86c692041b7e",
+    "name" : "Verify valid login",
+    "title" : "Verify valid login"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-title",
+    "value" : "Verify valid login"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "host",
+    "value" : "ilirs-MacBook-Pro-2.local"
+  }, {
+    "name" : "suite-name",
+    "value" : "Verify valid login"
+  }, {
+    "name" : "feature",
+    "value" : "Login Page"
+  }, {
+    "name" : "story",
+    "value" : "Verify valid login"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "thread",
+    "value" : "20403@ilirs-MacBook-Pro-2.local.main(1)"
+  } ],
+  "parameters" : [ ]
+}

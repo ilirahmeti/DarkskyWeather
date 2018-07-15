@@ -5,11 +5,7 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import framework.HomePage;
 import framework.LoginPage;
-import org.openqa.selenium.WebElement;
 import org.testng.Assert;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class LoginSD {
 
@@ -19,7 +15,7 @@ public class LoginSD {
     @Given("^User is on the Threely login page$")
         public void iAmOntheThreelyHomePage(){
         homePage.clickOnSignInButton();
-        Assert.assertEquals(SharedSD.getDriver().getTitle(),"Threely Starter Template","YOU ARE NOT IN HOME PAGE");
+        Assert.assertEquals(loginPage.getLoginHeaderText(),"Login","YOU ARE NOT IN HOME PAGE");
     }
 
     @When("^I enter username as “n12345@test.com” and password as “123456”$")
@@ -39,5 +35,4 @@ public class LoginSD {
         Assert.assertEquals(loginPage.getLogoutTextButton(), "Logout", "Verification of valid log in FAILED");
 
     }
-
 }

@@ -4,75 +4,94 @@ import org.openqa.selenium.By;
 
 public class HomePage extends BasePage {
 
-    private static By emailField = By.id("email");
-    private static By passField = By.id("password");
-    private static By submitButton = By.xpath("//button[@class='btn btn-success']");
-    private static By IOSimg = By.xpath("/html/body/div[2]/div/div[5]/div/a/img");
-    private static By signInButton = By.xpath("//a[text()='Sign In']");
-    private static By signUpHeaderText = By.xpath("//*[text()='Signup']");
-    private static By nameField = By.name("username");
-    private static By gmailField = By.name("email");
-    private static By wrongEmailField = By.name("email");
-    private static By passwordField = By.name("password");
-    private static By joinButton = By.xpath("//*[text()='Join']");
-    private static By searchField = By.id("aa-search-input");
+    private By homePageHeader = By.xpath("//p[contains(text(),'Browse. Buy. Done.')]");
+    private By emailField = By.id("email");
+    private By passField = By.id("password");
+    private By submitButton = By.xpath("//button[@class='btn btn-success']");
+    private By IOSimg = By.xpath("/html/body/div[2]/div/div[5]/div/a/img");
+    private By signInButton = By.xpath("//a[text()='Sign In']");
+    private By signUpHeaderText = By.xpath("//*[text()='Signup']");
+    private By nameField = By.name("username");
+    private By gmailField = By.name("email");
+    private By wrongEmailField = By.name("email");
+    private By passwordField = By.name("password");
+    private By joinButton = By.xpath("//*[text()='Join']");
+    private By searchField = By.id("aa-search-input");
+    private By totalPostsDisplay = By.xpath("/html//body//descendant::img");
+    private By totalPricestags = By.xpath("//div[@class='container section']//descendant::h3");
+    private By totalPostsTitles = By.xpath("//h4");
+    private By totalImageDisplay = By.xpath("//*[contains(@src,'jpg')]");
+    private By displayDropdownField = By.xpath("//div[@class='aa-dataset-1']");
 
-
-    public static void clickOnIOSimg() {
-        clickOn(IOSimg);
+    public String geHomepageVerification(){
+        return getText(homePageHeader);
     }
 
-    public static void clickOnSignInButton() {
+    public void clickOnSignInButton() {
         clickOn(signInButton);
     }
 
-    public static void enterEmail() {
+    public void enterEmail() {
         sendText(emailField, "ilirahmeti@yahoo.com");
     }
 
-    public static void enterPass() {
-        sendText(passField, "sgdfsg343");
-    }
-
-    public static void enterRightPass() {
+    public void enterRightPass() {
         sendText(passField, "ilir1357");
     }
 
-    public static String getVerificationText() {
+    public String getVerificationText() {
         return getText(signUpHeaderText);
     }
 
-    public static void enterName() {
-        sendText(nameField, "testuser");
+    public void enterName() {
+        sendText(nameField, BasePage.randomName(7));
     }
 
-    public static void enterGmail(String text) {
-        sendText(gmailField, text);
-
+    public void enterGmail(String email) {
+        sendText(gmailField, email);
     }
 
-
-
-    public static void enterWrongEmail(String text) {
+    public void enterWrongEmail(String text) {
         sendText(wrongEmailField, text);
     }
 
-    public static void enterGmailPass() {
-        sendText(passwordField, "ilir1357");
+    public void enterGmailPass() {
+        sendText(passwordField, BasePage.randomPassword());
     }
 
-
-    public static void clickOnJoinButton() {
+    public void clickOnJoinButton() {
         clickOn(joinButton);
     }
 
-
-    public static void clickOnSubmitButton() {
+    public void clickOnSubmitButton() {
         clickOn(submitButton);
     }
 
-    public static void enterTextOnSearchField(){
-        sendText(searchField,"IOS");
+    public void enterTextOnSearchField() {
+        sendText(searchField, "IOS");
     }
 
+    public int totalPostsDisplayed() {
+        return getTotalElementsCount(totalPostsDisplay);
+    }
+
+    public int totalPriceTags() {
+        return getTotalPriceTag(totalPricestags);
+    }
+
+    public int totalPostTitles() {
+        return allElementsHave(totalPostsTitles, "");
+    }
+
+    public boolean IOSisDisplayed() {
+        return elementDisplays(displayDropdownField);
+    }
+
+    public int totalDisplayedImg() {
+        return getTotalElementsCount(totalImageDisplay);
+    }
+
+
 }
+
+

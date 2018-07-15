@@ -12,7 +12,7 @@ import org.junit.runner.RunWith;
 
         features = {"src/test/Resources/features"},
         // Specify tags to be executed
-        tags = {"@invalidemail"},
+        tags = {"@regression"},
         //Specify step definition package name (Note: make sure to have this package on current directory)
         glue = {"stepdefinition"}
 )

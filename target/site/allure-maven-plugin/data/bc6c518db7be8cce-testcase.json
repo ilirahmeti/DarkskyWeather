@@ -1,10 +1,10 @@
 {
-  "uid" : "46092920a8fec1aa",
+  "uid" : "bc6c518db7be8cce",
   "name" : "And I verify all post has title",
   "title" : "And I verify all post has title",
   "time" : {
-    "start" : 1531207409812,
-    "stop" : 1531207409812,
+    "start" : 1531618071952,
+    "stop" : 1531618071952,
     "duration" : 0
   },
   "summary" : {
@@ -17,37 +17,37 @@
   "status" : "PASSED",
   "testId" : null,
   "suite" : {
-    "uid" : "f3fb7ca705bfa99a",
-    "name" : "UnknownTestSuite",
-    "title" : "Unknown test suite"
+    "uid" : "e1d7b24650e72888",
+    "name" : "Verify total number of posts on home page",
+    "title" : "Verify total number of posts on home page"
   },
   "steps" : [ ],
   "attachments" : [ ],
   "issues" : [ ],
   "labels" : [ {
+    "name" : "feature",
+    "value" : "Number of Pages"
+  }, {
     "name" : "language",
     "value" : "JAVA"
-  }, {
-    "name" : "story",
-    "value" : ""
-  }, {
-    "name" : "suite-name",
-    "value" : ""
   }, {
     "name" : "host",
     "value" : "ilirs-MacBook-Pro-2.local"
   }, {
-    "name" : "suite-title",
-    "value" : ""
+    "name" : "story",
+    "value" : "Verify total number of posts on home page"
   }, {
-    "name" : "feature",
-    "value" : ""
+    "name" : "suite-name",
+    "value" : "Verify total number of posts on home page"
   }, {
     "name" : "framework",
     "value" : "CucumberJVM"
   }, {
+    "name" : "suite-title",
+    "value" : "Verify total number of posts on home page"
+  }, {
     "name" : "thread",
-    "value" : "6895@ilirs-MacBook-Pro-2.local.main(1)"
+    "value" : "20403@ilirs-MacBook-Pro-2.local.main(1)"
   } ],
   "parameters" : [ ]
 }

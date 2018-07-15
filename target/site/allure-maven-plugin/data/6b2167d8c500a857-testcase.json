@@ -1,10 +1,10 @@
 {
-  "uid" : "b4fd918aac0b4e23",
-  "name" : "Then I verify 57 total post is displayed",
-  "title" : "Then I verify 57 total post is displayed",
+  "uid" : "6b2167d8c500a857",
+  "name" : "Given User is on the Threely login page",
+  "title" : "Given User is on the Threely login page",
   "time" : {
-    "start" : 1531207407979,
-    "stop" : 1531207407979,
+    "start" : 1531618060802,
+    "stop" : 1531618060802,
     "duration" : 0
   },
   "summary" : {
@@ -17,37 +17,37 @@
   "status" : "PASSED",
   "testId" : null,
   "suite" : {
-    "uid" : "f3fb7ca705bfa99a",
-    "name" : "UnknownTestSuite",
-    "title" : "Unknown test suite"
+    "uid" : "cabc86c692041b7e",
+    "name" : "Verify valid login",
+    "title" : "Verify valid login"
   },
   "steps" : [ ],
   "attachments" : [ ],
   "issues" : [ ],
   "labels" : [ {
+    "name" : "suite-title",
+    "value" : "Verify valid login"
+  }, {
     "name" : "language",
     "value" : "JAVA"
-  }, {
-    "name" : "story",
-    "value" : ""
-  }, {
-    "name" : "suite-name",
-    "value" : ""
   }, {
     "name" : "host",
     "value" : "ilirs-MacBook-Pro-2.local"
   }, {
-    "name" : "suite-title",
-    "value" : ""
+    "name" : "suite-name",
+    "value" : "Verify valid login"
   }, {
     "name" : "feature",
-    "value" : ""
+    "value" : "Login Page"
+  }, {
+    "name" : "story",
+    "value" : "Verify valid login"
   }, {
     "name" : "framework",
     "value" : "CucumberJVM"
   }, {
     "name" : "thread",
-    "value" : "6895@ilirs-MacBook-Pro-2.local.main(1)"
+    "value" : "20403@ilirs-MacBook-Pro-2.local.main(1)"
   } ],
   "parameters" : [ ]
 }

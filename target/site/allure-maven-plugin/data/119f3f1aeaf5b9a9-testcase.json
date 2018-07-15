@@ -1,0 +1,53 @@
+{
+  "uid" : "119f3f1aeaf5b9a9",
+  "name" : "Then I verify \"Title: I will teach you IOS\" as displayed result",
+  "title" : "Then I verify \"Title: I will teach you IOS\" as displayed result",
+  "time" : {
+    "start" : 1531618038039,
+    "stop" : 1531618038039,
+    "duration" : 0
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "4b4fbb33302ea63a",
+    "name" : "Verify auto complete search result",
+    "title" : "Verify auto complete search result"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-title",
+    "value" : "Verify auto complete search result"
+  }, {
+    "name" : "host",
+    "value" : "ilirs-MacBook-Pro-2.local"
+  }, {
+    "name" : "feature",
+    "value" : "Verify autocomplete"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "story",
+    "value" : "Verify auto complete search result"
+  }, {
+    "name" : "thread",
+    "value" : "20403@ilirs-MacBook-Pro-2.local.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "Verify auto complete search result"
+  } ],
+  "parameters" : [ ]
+}
