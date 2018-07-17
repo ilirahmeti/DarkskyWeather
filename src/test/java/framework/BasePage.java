@@ -1,18 +1,19 @@
 package framework;
 
 import com.gargoylesoftware.htmlunit.ElementNotFoundException;
-import org.apache.commons.lang.RandomStringUtils;
 import org.openqa.selenium.*;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Wait;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import stepdefinition.SharedSD;
 
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
 import java.util.List;
-import java.util.Random;
 import java.util.concurrent.TimeUnit;
 import java.util.function.Function;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class BasePage extends SharedSD {
 
@@ -20,24 +21,12 @@ public class BasePage extends SharedSD {
         browser(locator).click();
     }
 
-
     public static void sendText(By locator, String text) {
         browser(locator).sendKeys(text);
     }
 
     public static String getText(By locator) {
         return browser(locator).getText();
-    }
-
-    public static boolean elementDisplays(By locator) {
-        WebElement ele3 = browser(locator);
-        WebDriverWait wait = new WebDriverWait(SharedSD.getDriver(), 10);
-        wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
-        if (ele3.isDisplayed()) {
-            return true;
-        } else {
-            return false;
-        }
     }
 
     public static WebElement browser(final By locator) {
@@ -59,57 +48,59 @@ public class BasePage extends SharedSD {
         return element;
     }
 
-    public static int getTotalPriceTag(By locator) {
-        List<WebElement> list = SharedSD.getDriver().findElements(locator);
-        int totalPosttitles = 0;
-        for (WebElement i : list) {
-            if (i.getText().matches(".*\\d+.*")) {
-                totalPosttitles++;
+    public static boolean isAddedBy2(By locator) {
+        List<WebElement> links = SharedSD.getDriver().findElements(locator);
+
+        for (int i = 0; i < links.size(); i++) {
+            Pattern p = Pattern.compile("[0-9]");
+            Matcher m = p.matcher(links.get(i).getText());
+            while (m.find()) {
+                int n = Integer.parseInt(m.group());
+                if (isOdd(n)) {
+                    if ((n % 2 != 1)) {
+                        return false;
+                    }
+                } else {
+                    if ((n % 2 != 0)) {
+                        return false;
+                    }
+                }
             }
         }
-        return (totalPosttitles);
+        return true;
     }
 
-    public static int getTotalElementsCount(By locator) {
-        List<WebElement> list = SharedSD.getDriver().findElements(locator);
-        int totalPosts = 0;
-        for (WebElement i : list) {
-            if (i.isDisplayed()) {
-                totalPosts++;
+    public static boolean isOdd(int x) {
+
+        for (int i = 1; i <= x; i += 2) {
+            if (x == i) {
+                return true;
             }
         }
-        return totalPosts;
+        return false;
     }
 
-    public static int allElementsHave(By locator, String stringHolder) {
-        List<WebElement> list = SharedSD.getDriver().findElements(locator);
-        int totalPosttitles = 0;
-        for (WebElement i : list) {
-            if (!i.getText().equals(stringHolder)) {
-                totalPosttitles++;
+    public static boolean areStringsEqual(String low1, String high1, String low2, String high2) {
+        if (low1.equals(low2) && high1.equals(high2)) {
+            return true;
+        }
+        return false;
+    }
+
+    public boolean dateEquals(By locator) {
+        Calendar cal = Calendar.getInstance();
+        cal.add(Calendar.DAY_OF_YEAR, 0);
+        Date date = cal.getTime();
+        SimpleDateFormat sdf = new SimpleDateFormat("dd");
+        String todayDate = sdf.format(date);
+
+        List<WebElement> datesList = SharedSD.getDriver().findElements(locator);
+        for (WebElement i : datesList) {
+            if (i.getAttribute("textContent").equals(todayDate)) {
+                return true;
             }
         }
-        return totalPosttitles;
+        return false;
     }
 
-    public static String randomEmail() {
-        String str;
-        Random rand = new Random();
-        int r = rand.nextInt(100000);
-        return str = "a" + r + "@yahoo.com";
-    }
-
-    public static String randomName(int length) {
-        Random rand = new Random();
-        String possibleLetters = "abcdefghijklmnopqrstuvwxyz";
-        StringBuilder sb = new StringBuilder(length);
-        for (int i = 0; i < length; i++)
-            sb.append(possibleLetters.charAt(rand.nextInt(possibleLetters.length())));
-        return sb.toString();
-    }
-
-    public static String randomPassword() {
-        String str = RandomStringUtils.randomAlphanumeric(8);
-        return str;
-    }
 }

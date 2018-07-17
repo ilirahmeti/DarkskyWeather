@@ -4,94 +4,47 @@ import org.openqa.selenium.By;
 
 public class HomePage extends BasePage {
 
-    private By homePageHeader = By.xpath("//p[contains(text(),'Browse. Buy. Done.')]");
-    private By emailField = By.id("email");
-    private By passField = By.id("password");
-    private By submitButton = By.xpath("//button[@class='btn btn-success']");
-    private By IOSimg = By.xpath("/html/body/div[2]/div/div[5]/div/a/img");
-    private By signInButton = By.xpath("//a[text()='Sign In']");
-    private By signUpHeaderText = By.xpath("//*[text()='Signup']");
-    private By nameField = By.name("username");
-    private By gmailField = By.name("email");
-    private By wrongEmailField = By.name("email");
-    private By passwordField = By.name("password");
-    private By joinButton = By.xpath("//*[text()='Join']");
-    private By searchField = By.id("aa-search-input");
-    private By totalPostsDisplay = By.xpath("/html//body//descendant::img");
-    private By totalPricestags = By.xpath("//div[@class='container section']//descendant::h3");
-    private By totalPostsTitles = By.xpath("//h4");
-    private By totalImageDisplay = By.xpath("//*[contains(@src,'jpg')]");
-    private By displayDropdownField = By.xpath("//div[@class='aa-dataset-1']");
+    private By timeMachineButton = By.xpath("//div[@id='header']//p[@class='label'][contains(text(),'English')]");
+    private By hours = By.xpath("//div[@class='hours']//span[2]");
+    private By timeLineButton = By.className("button");
+    private By todaysBar = By.xpath("//body[@class='forecast']/div[@id='week']/a[1]/span[3]/span[1]/*[1]");
+    private By lowesTempToday = By.xpath("//a[@class='day revealed']//descendant::span[5]");
+    private By highesTempToday = By.xpath("//a[@class='day revealed']//descendant::span[3][@class='maxTemp']");
+    private By lowesTempTodayExpand = By.xpath("//div[@class='dayDetails revealed']//div[@class='dayExtras']//descendant::span[2][@class='temp']");
+    private By highesTempTodayExpand = By.xpath("//div[@class='dayDetails revealed']//div[@class='dayExtras']//descendant::span[6]");
+    private By calendarDates = By.xpath("//table[@class='pika-table']//tbody//descendant::td");
 
-    public String geHomepageVerification(){
-        return getText(homePageHeader);
+    public String getHomeVerification() {
+        return getText(timeMachineButton);
     }
 
-    public void clickOnSignInButton() {
-        clickOn(signInButton);
+    public boolean timeAddedBy2() {
+        return isAddedBy2(hours);
     }
 
-    public void enterEmail() {
-        sendText(emailField, "ilirahmeti@yahoo.com");
+    public void clickOnTodayBar() {
+        clickOn(todaysBar);
     }
 
-    public void enterRightPass() {
-        sendText(passField, "ilir1357");
+    public boolean areElementsTempEquals() {
+        String low1 = getText(lowesTempToday);
+        String high1 = getText(highesTempToday);
+        String low2 = getText(lowesTempTodayExpand);
+        String high2 = getText(highesTempTodayExpand);
+
+        return areStringsEqual(low1, high1, low2, high2);
     }
 
-    public String getVerificationText() {
-        return getText(signUpHeaderText);
+    public void clickOnTimelineButton() {
+        clickOn(timeLineButton);
     }
 
-    public void enterName() {
-        sendText(nameField, BasePage.randomName(7));
+    public boolean theDatesEquals() {
+        return dateEquals(calendarDates);
     }
-
-    public void enterGmail(String email) {
-        sendText(gmailField, email);
-    }
-
-    public void enterWrongEmail(String text) {
-        sendText(wrongEmailField, text);
-    }
-
-    public void enterGmailPass() {
-        sendText(passwordField, BasePage.randomPassword());
-    }
-
-    public void clickOnJoinButton() {
-        clickOn(joinButton);
-    }
-
-    public void clickOnSubmitButton() {
-        clickOn(submitButton);
-    }
-
-    public void enterTextOnSearchField() {
-        sendText(searchField, "IOS");
-    }
-
-    public int totalPostsDisplayed() {
-        return getTotalElementsCount(totalPostsDisplay);
-    }
-
-    public int totalPriceTags() {
-        return getTotalPriceTag(totalPricestags);
-    }
-
-    public int totalPostTitles() {
-        return allElementsHave(totalPostsTitles, "");
-    }
-
-    public boolean IOSisDisplayed() {
-        return elementDisplays(displayDropdownField);
-    }
-
-    public int totalDisplayedImg() {
-        return getTotalElementsCount(totalImageDisplay);
-    }
-
 
 }
+
+
 
 
