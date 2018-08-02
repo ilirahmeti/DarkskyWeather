@@ -17,7 +17,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 5078687902,
+  "duration": 5083098438,
   "status": "passed"
 });
 formatter.scenario({
@@ -48,22 +48,22 @@ formatter.match({
   "location": "DarkskySD.iAmOnDarskskyHomePage()"
 });
 formatter.result({
-  "duration": 643329149,
+  "duration": 588164840,
   "status": "passed"
 });
 formatter.match({
   "location": "DarkskySD.timelieneDisplaysTwoHoursIncrement()"
 });
 formatter.result({
-  "duration": 268873580,
+  "duration": 195153663,
   "status": "passed"
 });
 formatter.after({
-  "duration": 3108999474,
+  "duration": 3103615092,
   "status": "passed"
 });
 formatter.before({
-  "duration": 4598937270,
+  "duration": 4125504317,
   "status": "passed"
 });
 formatter.scenario({
@@ -99,29 +99,29 @@ formatter.match({
   "location": "DarkskySD.iAmOnDarskskyHomePage()"
 });
 formatter.result({
-  "duration": 45168707,
+  "duration": 63109888,
   "status": "passed"
 });
 formatter.match({
   "location": "DarkskySD.iExpandTodaysTimeline()"
 });
 formatter.result({
-  "duration": 240389568,
+  "duration": 381270431,
   "status": "passed"
 });
 formatter.match({
   "location": "DarkskySD.verifyTemp()"
 });
 formatter.result({
-  "duration": 635713929,
+  "duration": 599166337,
   "status": "passed"
 });
 formatter.after({
-  "duration": 3155449532,
+  "duration": 3179476006,
   "status": "passed"
 });
 formatter.before({
-  "duration": 4348488220,
+  "duration": 3780927226,
   "status": "passed"
 });
 formatter.scenario({
@@ -157,25 +157,25 @@ formatter.match({
   "location": "DarkskySD.iAmOnDarskskyHomePage()"
 });
 formatter.result({
-  "duration": 38460973,
+  "duration": 199760131,
   "status": "passed"
 });
 formatter.match({
   "location": "DarkskySD.iclickOnTimeMachine()"
 });
 formatter.result({
-  "duration": 254985757,
+  "duration": 419028879,
   "status": "passed"
 });
 formatter.match({
   "location": "DarkskySD.verifyTodayDateIsSelected()"
 });
 formatter.result({
-  "duration": 30053266,
+  "duration": 34770204,
   "status": "passed"
 });
 formatter.after({
-  "duration": 3097502755,
+  "duration": 3143008275,
   "status": "passed"
 });
 });
