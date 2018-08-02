@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1bbbe970-f81f-416c-9e8b-4c269d443a54" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/target/site/cucumber-pretty/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/cucumber-pretty/report.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/framework/BasePage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/framework/BasePage$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/framework/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/framework/BasePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/framework/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/framework/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DarkskyWeather" beforeDir="false" />
     </list>
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,8 +34,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="58" />
-    <option name="y" value="101" />
+    <option name="x" value="699" />
+    <option name="y" value="192" />
     <option name="width" value="1318" />
     <option name="height" value="970" />
   </component>
@@ -194,8 +191,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="58" y="101" width="1318" height="970" extended-state="0" />
-    <editor active="true" />
+    <frame x="699" y="192" width="1318" height="970" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -205,12 +201,12 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.465063" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.465063" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.42465752" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2594044" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2594044" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
