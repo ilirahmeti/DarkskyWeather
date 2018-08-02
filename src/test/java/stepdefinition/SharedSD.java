@@ -47,7 +47,6 @@ public class SharedSD {
             }
 
         } else {
-
             System.setProperty("webdriver.chrome.driver", configReader.getDriverLocation());
             driver = new ChromeDriver();
             driver.manage().deleteAllCookies();
@@ -69,6 +68,7 @@ public class SharedSD {
             driver.quit();
         }
     }
+
     public static WebDriver getDriver() {
         return driver;
     }

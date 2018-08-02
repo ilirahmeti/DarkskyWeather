@@ -1,6 +1,6 @@
 @regression @Darksky
 
-Feature: Correct format
+Feature: HomePage verifications
 
   @Darksky-1
   Scenario: Verify timline is displayed in correct format
@@ -9,7 +9,7 @@ Feature: Correct format
 
   @Darksky-2
   Scenario: Verify individual day temp timeline
-    Given I am on Darksky Home Page
+    Given I am on Darksky home page
     When I expand todays timeline
     Then I verify lowest and highest temp is displayed correctly
 

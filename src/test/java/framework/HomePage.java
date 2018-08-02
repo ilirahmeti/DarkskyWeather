@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 
 public class HomePage extends BasePage {
 
-    private By timeMachineButton = By.xpath("//div[@id='header']//p[@class='label'][contains(text(),'English')]");
+    private By timeMachineButton = By.xpath("//div[@id='header']//span[@class='label'][contains(text(),'English')]");
     private By hours = By.xpath("//div[@class='hours']//span[2]");
     private By timeLineButton = By.className("button");
     private By todaysBar = By.xpath("//body[@class='forecast']/div[@id='week']/a[1]/span[3]/span[1]/*[1]");
@@ -12,7 +12,7 @@ public class HomePage extends BasePage {
     private By highesTempToday = By.xpath("//a[@class='day revealed']//descendant::span[3][@class='maxTemp']");
     private By lowesTempTodayExpand = By.xpath("//div[@class='dayDetails revealed']//div[@class='dayExtras']//descendant::span[2][@class='temp']");
     private By highesTempTodayExpand = By.xpath("//div[@class='dayDetails revealed']//div[@class='dayExtras']//descendant::span[6]");
-    private By calendarDates = By.xpath("//table[@class='pika-table']//tbody//descendant::td");
+    private By calendarDates = By.xpath("//td[@class='is-today']");
 
     public String getHomeVerification() {
         return getText(timeMachineButton);

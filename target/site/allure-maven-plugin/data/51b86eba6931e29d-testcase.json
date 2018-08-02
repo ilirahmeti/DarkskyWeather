@@ -1,0 +1,53 @@
+{
+  "uid" : "51b86eba6931e29d",
+  "name" : "Then I verify date is selected to todays date",
+  "title" : "Then I verify date is selected to todays date",
+  "time" : {
+    "start" : 1532660870201,
+    "stop" : 1532660870201,
+    "duration" : 0
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "f68316ee9e3cc58b",
+    "name" : "Verify Time Machine Calendar",
+    "title" : "Verify Time Machine Calendar"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Verify Time Machine Calendar"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "feature",
+    "value" : "HomePage verifications"
+  }, {
+    "name" : "host",
+    "value" : "ilirs-MacBook-Pro-2.local"
+  }, {
+    "name" : "suite-name",
+    "value" : "Verify Time Machine Calendar"
+  }, {
+    "name" : "suite-title",
+    "value" : "Verify Time Machine Calendar"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "thread",
+    "value" : "17890@ilirs-MacBook-Pro-2.local.main(1)"
+  } ],
+  "parameters" : [ ]
+}

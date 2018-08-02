@@ -7,12 +7,12 @@ import java.util.Properties;
 
 public class ConfigReader {
 
-    String url;
-    String driverLocation;
-    String run_test;
-    String browser;
-    String platform;
-    String version;
+    private String url;
+    private String driverLocation;
+    private String run_test;
+    private String browser;
+    private String platform;
+    private String version;
 
    public ConfigReader() {
         Properties prop = new Properties();

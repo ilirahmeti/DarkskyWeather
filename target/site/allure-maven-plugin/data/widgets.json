@@ -2,17 +2,17 @@
   "hash" : "9ae4a52f46fbba0c959575303f697deb73e72d63",
   "data" : [ {
     "statistic" : {
-      "total" : 24,
-      "passed" : 24,
+      "total" : 3,
+      "passed" : 3,
       "pending" : 0,
       "canceled" : 0,
       "failed" : 0,
       "broken" : 0
     },
     "time" : {
-      "start" : 1531618035643,
-      "stop" : 1531618081671,
-      "duration" : 46028
+      "start" : 1532660869781,
+      "stop" : 1532660870201,
+      "duration" : 420
     },
     "name" : "total",
     "type" : "TOTAL"
@@ -28,57 +28,7 @@
     "name" : "xunit",
     "type" : "TITLE_STATISTICS",
     "data" : [ {
-      "title" : "Verify total number of posts on home page",
-      "statistic" : {
-        "total" : 5,
-        "passed" : 5,
-        "pending" : 0,
-        "canceled" : 0,
-        "failed" : 0,
-        "broken" : 0
-      }
-    }, {
-      "title" : "Verify a new user can register with a valid email address",
-      "statistic" : {
-        "total" : 4,
-        "passed" : 4,
-        "pending" : 0,
-        "canceled" : 0,
-        "failed" : 0,
-        "broken" : 0
-      }
-    }, {
-      "title" : "Verify invalid email on registration | test.com |",
-      "statistic" : {
-        "total" : 4,
-        "passed" : 4,
-        "pending" : 0,
-        "canceled" : 0,
-        "failed" : 0,
-        "broken" : 0
-      }
-    }, {
-      "title" : "Verify invalid email on registration | test@test@test.com |",
-      "statistic" : {
-        "total" : 4,
-        "passed" : 4,
-        "pending" : 0,
-        "canceled" : 0,
-        "failed" : 0,
-        "broken" : 0
-      }
-    }, {
-      "title" : "Verify valid login",
-      "statistic" : {
-        "total" : 4,
-        "passed" : 4,
-        "pending" : 0,
-        "canceled" : 0,
-        "failed" : 0,
-        "broken" : 0
-      }
-    }, {
-      "title" : "Verify auto complete search result",
+      "title" : "Verify Time Machine Calendar",
       "statistic" : {
         "total" : 3,
         "passed" : 3,
@@ -92,47 +42,7 @@
     "name" : "behaviors",
     "type" : "TITLE_STATISTICS",
     "data" : [ {
-      "title" : "Invalid email",
-      "statistic" : {
-        "total" : 8,
-        "passed" : 8,
-        "pending" : 0,
-        "canceled" : 0,
-        "failed" : 0,
-        "broken" : 0
-      }
-    }, {
-      "title" : "Login Page",
-      "statistic" : {
-        "total" : 4,
-        "passed" : 4,
-        "pending" : 0,
-        "canceled" : 0,
-        "failed" : 0,
-        "broken" : 0
-      }
-    }, {
-      "title" : "Number of Pages",
-      "statistic" : {
-        "total" : 5,
-        "passed" : 5,
-        "pending" : 0,
-        "canceled" : 0,
-        "failed" : 0,
-        "broken" : 0
-      }
-    }, {
-      "title" : "Valid Registration",
-      "statistic" : {
-        "total" : 4,
-        "passed" : 4,
-        "pending" : 0,
-        "canceled" : 0,
-        "failed" : 0,
-        "broken" : 0
-      }
-    }, {
-      "title" : "Verify autocomplete",
+      "title" : "HomePage verifications",
       "statistic" : {
         "total" : 3,
         "passed" : 3,

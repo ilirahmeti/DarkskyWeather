@@ -1,11 +1,6 @@
-/Users/ilirahmeti/Documents/Exercise files/bootcamp_training1/src/test/java/framework/HomePage.java
-/Users/ilirahmeti/Documents/Exercise files/bootcamp_training1/src/test/java/framework/BasePage.java
-/Users/ilirahmeti/Documents/Exercise files/bootcamp_training1/src/test/java/stepdefinition/LoginSD.java
-/Users/ilirahmeti/Documents/Exercise files/bootcamp_training1/src/test/java/framework/LoginPage.java
-/Users/ilirahmeti/Documents/Exercise files/bootcamp_training1/src/test/java/stepdefinition/InvalidEmailSD.java
-/Users/ilirahmeti/Documents/Exercise files/bootcamp_training1/src/test/java/utility/ConfigReader.java
-/Users/ilirahmeti/Documents/Exercise files/bootcamp_training1/src/test/java/framework/TestRunner.java
-/Users/ilirahmeti/Documents/Exercise files/bootcamp_training1/src/test/java/stepdefinition/TotalPostsSD.java
-/Users/ilirahmeti/Documents/Exercise files/bootcamp_training1/src/test/java/stepdefinition/validRegistrationSD.java
-/Users/ilirahmeti/Documents/Exercise files/bootcamp_training1/src/test/java/stepdefinition/AutocompleteSD.java
-/Users/ilirahmeti/Documents/Exercise files/bootcamp_training1/src/test/java/stepdefinition/SharedSD.java
+/Users/ilirahmeti/Documents/ExerciseFiles2/bootcamp_training2/src/test/java/utility/ConfigReader.java
+/Users/ilirahmeti/Documents/ExerciseFiles2/bootcamp_training2/src/test/java/stepdefinition/SharedSD.java
+/Users/ilirahmeti/Documents/ExerciseFiles2/bootcamp_training2/src/test/java/framework/BasePage.java
+/Users/ilirahmeti/Documents/ExerciseFiles2/bootcamp_training2/src/test/java/stepdefinition/DarkskySD.java
+/Users/ilirahmeti/Documents/ExerciseFiles2/bootcamp_training2/src/test/java/framework/HomePage.java
+/Users/ilirahmeti/Documents/ExerciseFiles2/bootcamp_training2/src/test/java/framework/TestRunner.java

@@ -1,12 +1,7 @@
 framework/BasePage$1.class
 stepdefinition/SharedSD.class
-stepdefinition/InvalidEmailSD.class
-stepdefinition/TotalPostsSD.class
-framework/LoginPage.class
-framework/TestRunner.class
 utility/ConfigReader.class
-stepdefinition/validRegistrationSD.class
+stepdefinition/DarkskySD.class
+framework/TestRunner.class
 framework/HomePage.class
-stepdefinition/AutocompleteSD.class
-stepdefinition/LoginSD.class
 framework/BasePage.class

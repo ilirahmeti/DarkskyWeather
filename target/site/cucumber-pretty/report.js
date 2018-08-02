@@ -1,9 +1,9 @@
 $(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("darksky.feature");
 formatter.feature({
   "line": 3,
-  "name": "Correct format",
+  "name": "HomePage verifications",
   "description": "",
-  "id": "correct-format",
+  "id": "homepage-verifications",
   "keyword": "Feature",
   "tags": [
     {
@@ -17,14 +17,14 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 6173924489,
+  "duration": 5078687902,
   "status": "passed"
 });
 formatter.scenario({
   "line": 6,
   "name": "Verify timline is displayed in correct format",
   "description": "",
-  "id": "correct-format;verify-timline-is-displayed-in-correct-format",
+  "id": "homepage-verifications;verify-timline-is-displayed-in-correct-format",
   "type": "scenario",
   "keyword": "Scenario",
   "tags": [
@@ -48,29 +48,29 @@ formatter.match({
   "location": "DarkskySD.iAmOnDarskskyHomePage()"
 });
 formatter.result({
-  "duration": 844570630,
+  "duration": 643329149,
   "status": "passed"
 });
 formatter.match({
   "location": "DarkskySD.timelieneDisplaysTwoHoursIncrement()"
 });
 formatter.result({
-  "duration": 564405112,
+  "duration": 268873580,
   "status": "passed"
 });
 formatter.after({
-  "duration": 3155746918,
+  "duration": 3108999474,
   "status": "passed"
 });
 formatter.before({
-  "duration": 4709517442,
+  "duration": 4598937270,
   "status": "passed"
 });
 formatter.scenario({
   "line": 11,
   "name": "Verify individual day temp timeline",
   "description": "",
-  "id": "correct-format;verify-individual-day-temp-timeline",
+  "id": "homepage-verifications;verify-individual-day-temp-timeline",
   "type": "scenario",
   "keyword": "Scenario",
   "tags": [
@@ -82,7 +82,7 @@ formatter.scenario({
 });
 formatter.step({
   "line": 12,
-  "name": "I am on Darksky Home Page",
+  "name": "I am on Darksky home page",
   "keyword": "Given "
 });
 formatter.step({
@@ -96,39 +96,39 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "DarkskySD.iAmOnDarskskyHomePag()"
+  "location": "DarkskySD.iAmOnDarskskyHomePage()"
 });
 formatter.result({
-  "duration": 296692832,
+  "duration": 45168707,
   "status": "passed"
 });
 formatter.match({
   "location": "DarkskySD.iExpandTodaysTimeline()"
 });
 formatter.result({
-  "duration": 560831332,
+  "duration": 240389568,
   "status": "passed"
 });
 formatter.match({
   "location": "DarkskySD.verifyTemp()"
 });
 formatter.result({
-  "duration": 267021879,
+  "duration": 635713929,
   "status": "passed"
 });
 formatter.after({
-  "duration": 3098095701,
+  "duration": 3155449532,
   "status": "passed"
 });
 formatter.before({
-  "duration": 4656000553,
+  "duration": 4348488220,
   "status": "passed"
 });
 formatter.scenario({
   "line": 17,
   "name": "Verify Time Machine Calendar",
   "description": "",
-  "id": "correct-format;verify-time-machine-calendar",
+  "id": "homepage-verifications;verify-time-machine-calendar",
   "type": "scenario",
   "keyword": "Scenario",
   "tags": [
@@ -157,25 +157,25 @@ formatter.match({
   "location": "DarkskySD.iAmOnDarskskyHomePage()"
 });
 formatter.result({
-  "duration": 57732048,
+  "duration": 38460973,
   "status": "passed"
 });
 formatter.match({
   "location": "DarkskySD.iclickOnTimeMachine()"
 });
 formatter.result({
-  "duration": 238490612,
+  "duration": 254985757,
   "status": "passed"
 });
 formatter.match({
   "location": "DarkskySD.verifyTodayDateIsSelected()"
 });
 formatter.result({
-  "duration": 735386367,
+  "duration": 30053266,
   "status": "passed"
 });
 formatter.after({
-  "duration": 3145857153,
+  "duration": 3097502755,
   "status": "passed"
 });
 });

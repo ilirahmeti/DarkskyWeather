@@ -19,11 +19,6 @@ public class DarkskySD {
         Assert.assertEquals(homePage.timeAddedBy2(), true, "THE TIME IS NOT INCREMENTED BY 2 HOUS");
     }
 
-    @Given("^I am on Darksky Home Page$")
-    public void iAmOnDarskskyHomePag() {
-        Assert.assertEquals(homePage.getHomeVerification(), "English", "YOU ARE NOT IN THE HOME PAGE");
-    }
-
     @When("^I expand todays timeline$")
     public void iExpandTodaysTimeline() {
         homePage.clickOnTodayBar();
@@ -32,6 +27,7 @@ public class DarkskySD {
     @Then("^I verify lowest and highest temp is displayed correctly$")
     public void verifyTemp() {
         Assert.assertEquals(homePage.areElementsTempEquals(), true, "THE TEMP ELEMENTS ARE NOT EQUAL");
+
     }
 
     @When("^I click on Time Machine$")

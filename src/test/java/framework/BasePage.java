@@ -5,7 +5,6 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Wait;
 import stepdefinition.SharedSD;
-
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
@@ -19,10 +18,6 @@ public class BasePage extends SharedSD {
 
     public static void clickOn(By locator) {
         browser(locator).click();
-    }
-
-    public static void sendText(By locator, String text) {
-        browser(locator).sendKeys(text);
     }
 
     public static String getText(By locator) {
@@ -50,7 +45,6 @@ public class BasePage extends SharedSD {
 
     public static boolean isAddedBy2(By locator) {
         List<WebElement> links = SharedSD.getDriver().findElements(locator);
-
         for (int i = 0; i < links.size(); i++) {
             Pattern p = Pattern.compile("[0-9]");
             Matcher m = p.matcher(links.get(i).getText());
@@ -91,16 +85,15 @@ public class BasePage extends SharedSD {
         Calendar cal = Calendar.getInstance();
         cal.add(Calendar.DAY_OF_YEAR, 0);
         Date date = cal.getTime();
-        SimpleDateFormat sdf = new SimpleDateFormat("dd");
+        SimpleDateFormat sdf = new SimpleDateFormat("d");
         String todayDate = sdf.format(date);
 
-        List<WebElement> datesList = SharedSD.getDriver().findElements(locator);
-        for (WebElement i : datesList) {
-            if (i.getAttribute("textContent").equals(todayDate)) {
-                return true;
-            }
-        }
-        return false;
-    }
+        String calendarDate = browser(locator).getAttribute("textContent");
 
+        if (calendarDate.equals(todayDate)) {
+            return true;
+        } else {
+            return false;
+        }
+    }
 }

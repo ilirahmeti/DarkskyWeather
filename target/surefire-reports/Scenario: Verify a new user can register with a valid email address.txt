@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: Scenario: Verify a new user can register with a valid email address
--------------------------------------------------------------------------------
-Tests run: 30, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 55.085 sec - in Scenario: Verify a new user can register with a valid email address

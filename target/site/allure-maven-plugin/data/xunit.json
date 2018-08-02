@@ -1,80 +1,17 @@
 {
   "time" : {
-    "start" : 1531618035643,
-    "stop" : 1531618081671,
-    "duration" : 46028
+    "start" : 1532660869781,
+    "stop" : 1532660870201,
+    "duration" : 420
   },
   "testSuites" : [ {
-    "uid" : "46c79532dfea8dc7",
-    "name" : "Verify a new user can register with a valid email address",
-    "title" : "Verify a new user can register with a valid email address",
+    "uid" : "f68316ee9e3cc58b",
+    "name" : "Verify Time Machine Calendar",
+    "title" : "Verify Time Machine Calendar",
     "time" : {
-      "start" : 1531618080278,
-      "stop" : 1531618081671,
-      "duration" : 1393
-    },
-    "statistic" : {
-      "total" : 4,
-      "passed" : 4,
-      "pending" : 0,
-      "canceled" : 0,
-      "failed" : 0,
-      "broken" : 0
-    },
-    "description" : null,
-    "testCases" : [ {
-      "uid" : "1567f31a9cc16b98",
-      "name" : "Given I am on Registration page",
-      "title" : "Given I am on Registration page",
-      "time" : {
-        "start" : 1531618080278,
-        "stop" : 1531618080278,
-        "duration" : 0
-      },
-      "severity" : "NORMAL",
-      "status" : "PASSED"
-    }, {
-      "uid" : "ebedf373c0cbc307",
-      "name" : "When I enter the name as \"testuser\" email as \"test@test.com\" password as \"test12345\"",
-      "title" : "When I enter the name as \"testuser\" email as \"test@test.com\" password as \"test12345\"",
-      "time" : {
-        "start" : 1531618080603,
-        "stop" : 1531618080603,
-        "duration" : 0
-      },
-      "severity" : "NORMAL",
-      "status" : "PASSED"
-    }, {
-      "uid" : "209de0cd8ac2f48f",
-      "name" : "And I click 'submit' button",
-      "title" : "And I click 'submit' button",
-      "time" : {
-        "start" : 1531618081390,
-        "stop" : 1531618081390,
-        "duration" : 0
-      },
-      "severity" : "NORMAL",
-      "status" : "PASSED"
-    }, {
-      "uid" : "234d7c8a5ddb4877",
-      "name" : "Then I am signed-in as a new user",
-      "title" : "Then I am signed-in as a new user",
-      "time" : {
-        "start" : 1531618081671,
-        "stop" : 1531618081671,
-        "duration" : 0
-      },
-      "severity" : "NORMAL",
-      "status" : "PASSED"
-    } ]
-  }, {
-    "uid" : "4b4fbb33302ea63a",
-    "name" : "Verify auto complete search result",
-    "title" : "Verify auto complete search result",
-    "time" : {
-      "start" : 1531618035643,
-      "stop" : 1531618038039,
-      "duration" : 2396
+      "start" : 1532660869781,
+      "stop" : 1532660870201,
+      "duration" : 420
     },
     "statistic" : {
       "total" : 3,
@@ -86,297 +23,34 @@
     },
     "description" : null,
     "testCases" : [ {
-      "uid" : "e50e8cab58036f44",
-      "name" : "Given I am on home page",
-      "title" : "Given I am on home page",
+      "uid" : "911128605514ce67",
+      "name" : "Given I am on Darksky home page",
+      "title" : "Given I am on Darksky home page",
       "time" : {
-        "start" : 1531618035643,
-        "stop" : 1531618035645,
+        "start" : 1532660869781,
+        "stop" : 1532660869783,
         "duration" : 2
       },
       "severity" : "NORMAL",
       "status" : "PASSED"
     }, {
-      "uid" : "ecc1f847b0fadcb6",
-      "name" : "When I search on top search bar with text \"ios\"",
-      "title" : "When I search on top search bar with text \"ios\"",
+      "uid" : "2265d07f4ecaabfb",
+      "name" : "When I click on Time Machine",
+      "title" : "When I click on Time Machine",
       "time" : {
-        "start" : 1531618035867,
-        "stop" : 1531618035867,
+        "start" : 1532660869951,
+        "stop" : 1532660869951,
         "duration" : 0
       },
       "severity" : "NORMAL",
       "status" : "PASSED"
     }, {
-      "uid" : "119f3f1aeaf5b9a9",
-      "name" : "Then I verify \"Title: I will teach you IOS\" as displayed result",
-      "title" : "Then I verify \"Title: I will teach you IOS\" as displayed result",
+      "uid" : "51b86eba6931e29d",
+      "name" : "Then I verify date is selected to todays date",
+      "title" : "Then I verify date is selected to todays date",
       "time" : {
-        "start" : 1531618038039,
-        "stop" : 1531618038039,
-        "duration" : 0
-      },
-      "severity" : "NORMAL",
-      "status" : "PASSED"
-    } ]
-  }, {
-    "uid" : "f5ea168767396311",
-    "name" : "Verify invalid email on registration | test.com |",
-    "title" : "Verify invalid email on registration | test.com |",
-    "time" : {
-      "start" : 1531618045088,
-      "stop" : 1531618045429,
-      "duration" : 341
-    },
-    "statistic" : {
-      "total" : 4,
-      "passed" : 4,
-      "pending" : 0,
-      "canceled" : 0,
-      "failed" : 0,
-      "broken" : 0
-    },
-    "description" : null,
-    "testCases" : [ {
-      "uid" : "848ff3ee34ac0d77",
-      "name" : "Given I am on the Registration page",
-      "title" : "Given I am on the Registration page",
-      "time" : {
-        "start" : 1531618045088,
-        "stop" : 1531618045088,
-        "duration" : 0
-      },
-      "severity" : "NORMAL",
-      "status" : "PASSED"
-    }, {
-      "uid" : "3f48214f696e87e3",
-      "name" : "When I enter name as \"test user\" email as test.com password as \"test12345\"",
-      "title" : "When I enter name as \"test user\" email as test.com password as \"test12345\"",
-      "time" : {
-        "start" : 1531618045328,
-        "stop" : 1531618045328,
-        "duration" : 0
-      },
-      "severity" : "NORMAL",
-      "status" : "PASSED"
-    }, {
-      "uid" : "c030100b7272c617",
-      "name" : "And I click on 'submit' button",
-      "title" : "And I click on 'submit' button",
-      "time" : {
-        "start" : 1531618045401,
-        "stop" : 1531618045401,
-        "duration" : 0
-      },
-      "severity" : "NORMAL",
-      "status" : "PASSED"
-    }, {
-      "uid" : "1fe5fba256dfb012",
-      "name" : "Then I verify invalid email address",
-      "title" : "Then I verify invalid email address",
-      "time" : {
-        "start" : 1531618045429,
-        "stop" : 1531618045429,
-        "duration" : 0
-      },
-      "severity" : "NORMAL",
-      "status" : "PASSED"
-    } ]
-  }, {
-    "uid" : "e1d7b24650e72888",
-    "name" : "Verify total number of posts on home page",
-    "title" : "Verify total number of posts on home page",
-    "time" : {
-      "start" : 1531618069334,
-      "stop" : 1531618072484,
-      "duration" : 3150
-    },
-    "statistic" : {
-      "total" : 5,
-      "passed" : 5,
-      "pending" : 0,
-      "canceled" : 0,
-      "failed" : 0,
-      "broken" : 0
-    },
-    "description" : null,
-    "testCases" : [ {
-      "uid" : "1710662cb3249108",
-      "name" : "Given I am on home page of Threely",
-      "title" : "Given I am on home page of Threely",
-      "time" : {
-        "start" : 1531618069334,
-        "stop" : 1531618069334,
-        "duration" : 0
-      },
-      "severity" : "NORMAL",
-      "status" : "PASSED"
-    }, {
-      "uid" : "3c2d2bd458b6b8fb",
-      "name" : "Then I verify 57 total post is displayed",
-      "title" : "Then I verify 57 total post is displayed",
-      "time" : {
-        "start" : 1531618070188,
-        "stop" : 1531618070188,
-        "duration" : 0
-      },
-      "severity" : "NORMAL",
-      "status" : "PASSED"
-    }, {
-      "uid" : "daf83d884c766eab",
-      "name" : "And I verify all post has price tag",
-      "title" : "And I verify all post has price tag",
-      "time" : {
-        "start" : 1531618071067,
-        "stop" : 1531618071067,
-        "duration" : 0
-      },
-      "severity" : "NORMAL",
-      "status" : "PASSED"
-    }, {
-      "uid" : "bc6c518db7be8cce",
-      "name" : "And I verify all post has title",
-      "title" : "And I verify all post has title",
-      "time" : {
-        "start" : 1531618071952,
-        "stop" : 1531618071952,
-        "duration" : 0
-      },
-      "severity" : "NORMAL",
-      "status" : "PASSED"
-    }, {
-      "uid" : "69f0319067741a85",
-      "name" : "And I verify all post has displayed image",
-      "title" : "And I verify all post has displayed image",
-      "time" : {
-        "start" : 1531618072484,
-        "stop" : 1531618072484,
-        "duration" : 0
-      },
-      "severity" : "NORMAL",
-      "status" : "PASSED"
-    } ]
-  }, {
-    "uid" : "ecf51b9ca45811da",
-    "name" : "Verify invalid email on registration | test@test@test.com |",
-    "title" : "Verify invalid email on registration | test@test@test.com |",
-    "time" : {
-      "start" : 1531618052949,
-      "stop" : 1531618053300,
-      "duration" : 351
-    },
-    "statistic" : {
-      "total" : 4,
-      "passed" : 4,
-      "pending" : 0,
-      "canceled" : 0,
-      "failed" : 0,
-      "broken" : 0
-    },
-    "description" : null,
-    "testCases" : [ {
-      "uid" : "a1ebfa82357c9c20",
-      "name" : "Given I am on the Registration page",
-      "title" : "Given I am on the Registration page",
-      "time" : {
-        "start" : 1531618052949,
-        "stop" : 1531618052949,
-        "duration" : 0
-      },
-      "severity" : "NORMAL",
-      "status" : "PASSED"
-    }, {
-      "uid" : "33e2ef181e2d8cce",
-      "name" : "When I enter name as \"test user\" email as test@test@test.com password as \"test12345\"",
-      "title" : "When I enter name as \"test user\" email as test@test@test.com password as \"test12345\"",
-      "time" : {
-        "start" : 1531618053201,
-        "stop" : 1531618053201,
-        "duration" : 0
-      },
-      "severity" : "NORMAL",
-      "status" : "PASSED"
-    }, {
-      "uid" : "a55bfb7959769c1b",
-      "name" : "And I click on 'submit' button",
-      "title" : "And I click on 'submit' button",
-      "time" : {
-        "start" : 1531618053269,
-        "stop" : 1531618053269,
-        "duration" : 0
-      },
-      "severity" : "NORMAL",
-      "status" : "PASSED"
-    }, {
-      "uid" : "850eaaba72c81e81",
-      "name" : "Then I verify invalid email address",
-      "title" : "Then I verify invalid email address",
-      "time" : {
-        "start" : 1531618053300,
-        "stop" : 1531618053300,
-        "duration" : 0
-      },
-      "severity" : "NORMAL",
-      "status" : "PASSED"
-    } ]
-  }, {
-    "uid" : "cabc86c692041b7e",
-    "name" : "Verify valid login",
-    "title" : "Verify valid login",
-    "time" : {
-      "start" : 1531618060802,
-      "stop" : 1531618062178,
-      "duration" : 1376
-    },
-    "statistic" : {
-      "total" : 4,
-      "passed" : 4,
-      "pending" : 0,
-      "canceled" : 0,
-      "failed" : 0,
-      "broken" : 0
-    },
-    "description" : null,
-    "testCases" : [ {
-      "uid" : "6b2167d8c500a857",
-      "name" : "Given User is on the Threely login page",
-      "title" : "Given User is on the Threely login page",
-      "time" : {
-        "start" : 1531618060802,
-        "stop" : 1531618060802,
-        "duration" : 0
-      },
-      "severity" : "NORMAL",
-      "status" : "PASSED"
-    }, {
-      "uid" : "3f2fc6ee54687379",
-      "name" : "When I enter username as “n12345@test.com” and password as “123456”",
-      "title" : "When I enter username as “n12345@test.com” and password as “123456”",
-      "time" : {
-        "start" : 1531618061064,
-        "stop" : 1531618061064,
-        "duration" : 0
-      },
-      "severity" : "NORMAL",
-      "status" : "PASSED"
-    }, {
-      "uid" : "df27c0cb9b34c6d1",
-      "name" : "And I click on submit button",
-      "title" : "And I click on submit button",
-      "time" : {
-        "start" : 1531618061834,
-        "stop" : 1531618061834,
-        "duration" : 0
-      },
-      "severity" : "NORMAL",
-      "status" : "PASSED"
-    }, {
-      "uid" : "4e890d9c9534e121",
-      "name" : "Then I verify logout button is displayed",
-      "title" : "Then I verify logout button is displayed",
-      "time" : {
-        "start" : 1531618062178,
-        "stop" : 1531618062178,
+        "start" : 1532660870201,
+        "stop" : 1532660870201,
         "duration" : 0
       },
       "severity" : "NORMAL",

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Scenario: Verify a new user can register with a valid email address" time="19.074" tests="30" errors="0" skipped="0" failures="0">
+<testsuite name="Scenario: Verify Time Machine Calendar" time="3.296" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/jre/lib"/>
     <property name="java.vm.version" value="25.172-b11"/>
     <property name="gopherProxySet" value="false"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="/Users/ilirahmeti/Documents/Exercise files/bootcamp_training1"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/ilirahmeti/Documents/ExerciseFiles2/bootcamp_training2"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=":"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="unknown"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/Users/ilirahmeti/Documents/Exercise files/bootcamp_training1"/>
+    <property name="user.dir" value="/Users/ilirahmeti/Documents/ExerciseFiles2/bootcamp_training2"/>
     <property name="java.runtime.version" value="1.8.0_172-b11"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/jre/lib/endorsed"/>
@@ -63,34 +63,8 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="Given I am on home page" classname="Scenario: Verify auto complete search result" time="0.226"/>
-  <testcase name="When I search on top search bar with text &quot;ios&quot;" classname="Scenario: Verify auto complete search result" time="0"/>
-  <testcase name="Then I verify &quot;Title: I will teach you IOS&quot; as displayed result" classname="Scenario: Verify auto complete search result" time="0"/>
-  <testcase name="Scenario: Verify auto complete search result" classname="Scenario: Verify auto complete search result" time="3.148"/>
-  <testcase name="Given I am on the Registration page" classname="| test.com |" time="0.002"/>
-  <testcase name="When I enter name as &quot;test user&quot; email as test.com password as &quot;test12345&quot;" classname="| test.com |" time="0"/>
-  <testcase name="And I click on &apos;submit&apos; button" classname="| test.com |" time="0"/>
-  <testcase name="Then I verify invalid email address" classname="| test.com |" time="0.001"/>
-  <testcase name="| test.com |" classname="| test.com |" time="3.095"/>
-  <testcase name="Given I am on the Registration page" classname="| test@test@test.com |" time="0.002"/>
-  <testcase name="When I enter name as &quot;test user&quot; email as test@test@test.com password as &quot;test12345&quot;" classname="| test@test@test.com |" time="0"/>
-  <testcase name="And I click on &apos;submit&apos; button" classname="| test@test@test.com |" time="0.001"/>
-  <testcase name="Then I verify invalid email address" classname="| test@test@test.com |" time="0"/>
-  <testcase name="| test@test@test.com |" classname="| test@test@test.com |" time="3.143"/>
-  <testcase name="Given User is on the Threely login page" classname="Scenario: Verify valid login" time="0.002"/>
-  <testcase name="When I enter username as “n12345@test.com” and password as “123456”" classname="Scenario: Verify valid login" time="0"/>
-  <testcase name="And I click on submit button" classname="Scenario: Verify valid login" time="0"/>
-  <testcase name="Then I verify logout button is displayed" classname="Scenario: Verify valid login" time="0.001"/>
-  <testcase name="Scenario: Verify valid login" classname="Scenario: Verify valid login" time="3.148"/>
-  <testcase name="Given I am on home page of Threely" classname="Scenario: Verify total number of posts on home page" time="0.001"/>
-  <testcase name="Then I verify 57 total post is displayed" classname="Scenario: Verify total number of posts on home page" time="0"/>
-  <testcase name="And I verify all post has price tag" classname="Scenario: Verify total number of posts on home page" time="0"/>
-  <testcase name="And I verify all post has title" classname="Scenario: Verify total number of posts on home page" time="0.001"/>
-  <testcase name="And I verify all post has displayed image" classname="Scenario: Verify total number of posts on home page" time="0"/>
-  <testcase name="Scenario: Verify total number of posts on home page" classname="Scenario: Verify total number of posts on home page" time="3.153"/>
-  <testcase name="Given I am on Registration page" classname="Scenario: Verify a new user can register with a valid email address" time="0.001"/>
-  <testcase name="When I enter the name as &quot;testuser&quot; email as &quot;test@test.com&quot; password as &quot;test12345&quot;" classname="Scenario: Verify a new user can register with a valid email address" time="0"/>
-  <testcase name="And I click &apos;submit&apos; button" classname="Scenario: Verify a new user can register with a valid email address" time="0"/>
-  <testcase name="Then I am signed-in as a new user" classname="Scenario: Verify a new user can register with a valid email address" time="0"/>
-  <testcase name="Scenario: Verify a new user can register with a valid email address" classname="Scenario: Verify a new user can register with a valid email address" time="3.149"/>
+  <testcase name="Given I am on Darksky home page" classname="Scenario: Verify Time Machine Calendar" time="0.201"/>
+  <testcase name="When I click on Time Machine" classname="Scenario: Verify Time Machine Calendar" time="0"/>
+  <testcase name="Then I verify date is selected to todays date" classname="Scenario: Verify Time Machine Calendar" time="0"/>
+  <testcase name="Scenario: Verify Time Machine Calendar" classname="Scenario: Verify Time Machine Calendar" time="3.095"/>
 </testsuite>
