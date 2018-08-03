@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 
 public class HomePage extends BasePage {
 
-    private By timeMachineButton = By.xpath("//div[@id='header']//span[@class='label'][contains(text(),'English')]");
+    private By timeMachineButton = By.xpath("//a[contains(text(),'Maps')]");
     private By hours = By.xpath("//div[@class='hours']//span[2]");
     private By timeLineButton = By.className("button");
     private By todaysBar = By.xpath("//body[@class='forecast']/div[@id='week']/a[1]/span[3]/span[1]/*[1]");
