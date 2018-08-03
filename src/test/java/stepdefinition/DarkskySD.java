@@ -11,7 +11,7 @@ public class DarkskySD {
 
     @Given("^I am on Darksky home page$")
     public void iAmOnDarskskyHomePage() {
-        Assert.assertEquals(homePage.getHomeVerification(), "English", "YOU ARE NOT IN THE HOME PAGE");
+        Assert.assertEquals(homePage.getHomeVerification(), "Maps", "YOU ARE NOT IN THE HOME PAGE");
     }
 
     @Then("^I verify timeline is displayed with two hours incremented$")
