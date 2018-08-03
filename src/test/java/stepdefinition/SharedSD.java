@@ -52,7 +52,6 @@ public class SharedSD {
             driver.manage().deleteAllCookies();
             driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
             driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
-            driver.manage().window().maximize();
             driver.get(configReader.getUrl());
         }
     }
