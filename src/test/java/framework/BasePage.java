@@ -96,4 +96,8 @@ public class BasePage extends SharedSD {
             return false;
         }
     }
+
+    public void scroll(){
+        ((JavascriptExecutor) getDriver()).executeScript("window.scrollBy(0,750)");
+    }
 }

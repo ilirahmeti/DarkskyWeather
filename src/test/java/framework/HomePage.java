@@ -36,6 +36,7 @@ public class HomePage extends BasePage {
     }
 
     public void clickOnTimelineButton() {
+        scroll();
         clickOn(timeLineButton);
     }
 
