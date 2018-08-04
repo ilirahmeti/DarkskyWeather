@@ -99,10 +99,6 @@ public class BasePage extends SharedSD {
         }
     }
 
-    public void scroll(){
-        ((JavascriptExecutor) getDriver()).executeScript("window.scrollBy(0,750)");
-    }
-
     public void waitThenClick(By locator){
         WebElement element = browser(locator);
         WebDriverWait wait = new WebDriverWait(getDriver(),10);
