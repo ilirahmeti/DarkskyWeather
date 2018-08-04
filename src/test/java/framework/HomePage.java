@@ -36,7 +36,7 @@ public class HomePage extends BasePage {
     }
 
     public void clickOnTimelineButton() {
-        waitThenClick(timeLineButton);
+        clickOn(timeLineButton);
     }
 
     public boolean theDatesEquals() {
