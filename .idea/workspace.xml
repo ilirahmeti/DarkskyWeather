@@ -25,7 +25,7 @@
             <entry file="file://$PROJECT_DIR$/src/test/java/framework/BasePage.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="384">
-                  <caret line="101" column="5" selection-start-line="101" selection-start-column="5" selection-end-line="101" selection-end-column="5" />
+                  <caret line="110" column="5" selection-start-line="110" selection-start-column="5" selection-end-line="110" selection-end-column="5" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -87,6 +87,13 @@
       </split-second>
     </splitter>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -97,14 +104,14 @@
         <option value="$PROJECT_DIR$/src/test/java/stepdefinition/SharedSD.java" />
         <option value="$PROJECT_DIR$/src/test/Resources/Features/darksky.feature" />
         <option value="$PROJECT_DIR$/src/test/java/framework/BasePage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/framework/TestRunner.java" />
         <option value="$PROJECT_DIR$/src/test/java/framework/HomePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/framework/TestRunner.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="206" />
-    <option name="y" value="23" />
+    <option name="x" value="545" />
+    <option name="y" value="166" />
     <option name="width" value="977" />
     <option name="height" value="970" />
   </component>
@@ -263,21 +270,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestRunner - 2018.08.03 at 19h 13m 25s.xml">
-      <configuration name="TestRunner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestRunner - 2018.08.03 at 19h 31m 02s.xml">
-      <configuration name="TestRunner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestRunner - 2018.08.04 at 09h 24m 14s.xml">
-      <configuration name="TestRunner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestRunner - 2018.08.04 at 09h 55m 41s.xml">
-      <configuration name="TestRunner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestRunner - 2018.08.04 at 11h 40m 45s.xml">
-      <configuration name="TestRunner" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestRunner - 2018.08.04 at 11h 42m 51s.xml">
       <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
@@ -291,6 +283,21 @@
       <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TestRunner - 2018.08.04 at 12h 04m 07s.xml">
+      <configuration name="TestRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRunner - 2018.08.04 at 12h 13m 28s.xml">
+      <configuration name="TestRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRunner - 2018.08.04 at 13h 17m 52s.xml">
+      <configuration name="TestRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRunner - 2018.08.04 at 13h 18m 38s.xml">
+      <configuration name="TestRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRunner - 2018.08.04 at 13h 20m 30s.xml">
+      <configuration name="TestRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRunner - 2018.08.04 at 13h 20m 59s.xml">
       <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -342,7 +349,7 @@
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.32760596" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.118716575" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28877005" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
@@ -401,7 +408,13 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinition/AutocompleteSD.java" />
     <entry file="file://$PROJECT_DIR$/src/test/Resources/Features/login.feature" />
     <entry file="file://$PROJECT_DIR$/src/test/Resources/Features/invalidemail.feature" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/framework/TestRunner.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/framework/TestRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinition/TotalPostsSD.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/framework/Test.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinition/AutocompleteSD.java" />
@@ -409,7 +422,13 @@
     <entry file="file://$PROJECT_DIR$/src/test/Resources/Features/login.feature" />
     <entry file="file://$PROJECT_DIR$/src/test/java/utility/Utils.java" />
     <entry file="file://$PROJECT_DIR$/src/test/Resources/Features/totalposts.feature" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/framework/TestRunner.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/framework/TestRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/framework/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
@@ -475,13 +494,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/Resources/Features/darksky.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinition/SharedSD.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="327">
@@ -496,28 +508,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/framework/BasePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="101" column="5" selection-start-line="101" selection-start-column="5" selection-end-line="101" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/framework/TestRunner.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinition/DarkskySD.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="326">
           <caret line="34" column="38" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#759#760#0" expanded="true" />
-            <element signature="e#801#802#0" expanded="true" />
-            <element signature="e#1095#1096#0" expanded="true" />
-            <element signature="e#1143#1144#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/framework/BasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="110" column="5" selection-start-line="110" selection-start-column="5" selection-end-line="110" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/Resources/Features/darksky.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/framework/TestRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
         </state>
       </provider>
     </entry>
