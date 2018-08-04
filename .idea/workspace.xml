@@ -25,7 +25,11 @@
             <entry file="file://$PROJECT_DIR$/src/test/java/framework/BasePage.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="384">
+<<<<<<< HEAD
                   <caret line="101" column="5" selection-start-line="101" selection-start-column="5" selection-end-line="101" selection-end-column="5" />
+=======
+                  <caret line="110" column="5" selection-start-line="110" selection-start-column="5" selection-end-line="110" selection-end-column="5" />
+>>>>>>> darksky2
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -36,8 +40,13 @@
           <file leaf-file-name="HomePage.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/framework/HomePage.java">
               <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
                 <state relative-caret-position="365">
                   <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+=======
+                <state relative-caret-position="305">
+                  <caret line="41" column="27" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
+>>>>>>> darksky2
                   <folding>
                     <element signature="e#1039#1040#0" expanded="true" />
                     <element signature="e#1088#1089#0" expanded="true" />
@@ -110,8 +119,13 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
+<<<<<<< HEAD
     <option name="x" value="545" />
     <option name="y" value="166" />
+=======
+    <option name="x" value="622" />
+    <option name="y" value="23" />
+>>>>>>> darksky2
     <option name="width" value="977" />
     <option name="height" value="970" />
   </component>
@@ -270,6 +284,7 @@
     <servers />
   </component>
   <component name="TestHistory">
+<<<<<<< HEAD
     <history-entry file="TestRunner - 2018.08.04 at 11h 43m 40s.xml">
       <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
@@ -298,11 +313,45 @@
       <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TestRunner - 2018.08.04 at 13h 35m 15s.xml">
+=======
+    <history-entry file="TestRunner - 2018.08.04 at 11h 42m 51s.xml">
+      <configuration name="TestRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRunner - 2018.08.04 at 11h 43m 40s.xml">
+      <configuration name="TestRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRunner - 2018.08.04 at 11h 50m 25s.xml">
+      <configuration name="TestRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRunner - 2018.08.04 at 12h 02m 43s.xml">
+      <configuration name="TestRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRunner - 2018.08.04 at 12h 04m 07s.xml">
+      <configuration name="TestRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRunner - 2018.08.04 at 12h 13m 28s.xml">
+      <configuration name="TestRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRunner - 2018.08.04 at 13h 17m 52s.xml">
+      <configuration name="TestRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRunner - 2018.08.04 at 13h 18m 38s.xml">
+      <configuration name="TestRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRunner - 2018.08.04 at 13h 20m 30s.xml">
+      <configuration name="TestRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRunner - 2018.08.04 at 13h 20m 59s.xml">
+>>>>>>> darksky2
       <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="545" y="166" width="977" height="970" extended-state="0" />
+=======
+    <frame x="249" y="384" width="977" height="970" extended-state="0" />
+>>>>>>> darksky2
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -312,12 +361,20 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
+<<<<<<< HEAD
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.42038947" />
+=======
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3906071" />
+>>>>>>> darksky2
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.42465752" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
+<<<<<<< HEAD
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28877005" />
+=======
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28877005" />
+>>>>>>> darksky2
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -521,7 +578,11 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/framework/BasePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
+<<<<<<< HEAD
           <caret line="101" column="5" selection-start-line="101" selection-start-column="5" selection-end-line="101" selection-end-column="5" />
+=======
+          <caret line="110" column="5" selection-start-line="110" selection-start-column="5" selection-end-line="110" selection-end-column="5" />
+>>>>>>> darksky2
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -544,8 +605,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/framework/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="365">
           <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+=======
+        <state relative-caret-position="305">
+          <caret line="41" column="27" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
+>>>>>>> darksky2
           <folding>
             <element signature="e#1039#1040#0" expanded="true" />
             <element signature="e#1088#1089#0" expanded="true" />

@@ -2,8 +2,10 @@ package framework;
 
 import com.gargoylesoftware.htmlunit.ElementNotFoundException;
 import org.openqa.selenium.*;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Wait;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import stepdefinition.SharedSD;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
@@ -99,5 +101,12 @@ public class BasePage extends SharedSD {
 
     public void scroll(){
         ((JavascriptExecutor) getDriver()).executeScript("window.scrollBy(0,750)");
+    }
+
+    public void waitThenClick(By locator){
+        WebElement element = browser(locator);
+        WebDriverWait wait = new WebDriverWait(getDriver(),10);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+        element.click();
     }
 }
