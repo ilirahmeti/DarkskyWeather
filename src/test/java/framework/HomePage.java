@@ -37,6 +37,11 @@ public class HomePage extends BasePage {
 
     public void clickOnTimelineButton() {
         scroll();
+        try {
+            Thread.sleep(6000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         clickOn(timeLineButton);
     }
 

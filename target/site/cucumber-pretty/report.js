@@ -17,7 +17,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 5247362339,
+  "duration": 5896019694,
   "status": "passed"
 });
 formatter.background({
@@ -55,18 +55,18 @@ formatter.match({
   "location": "DarkskySD.iclickOnTimeMachine()"
 });
 formatter.result({
-  "duration": 6554677923,
+  "duration": 6524637831,
   "status": "passed"
 });
 formatter.match({
   "location": "DarkskySD.verifyTodayDateIsSelected()"
 });
 formatter.result({
-  "duration": 45125739,
+  "duration": 38257474,
   "status": "passed"
 });
 formatter.after({
-  "duration": 3106362242,
+  "duration": 3104487043,
   "status": "passed"
 });
 });
