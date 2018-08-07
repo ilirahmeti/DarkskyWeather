@@ -98,6 +98,7 @@ public class BasePage extends SharedSD {
             return false;
         }
     }
+<<<<<<< HEAD
 
     public void scroll(){
         ((JavascriptExecutor) getDriver()).executeScript("window.scrollBy(0,750)");
@@ -114,3 +115,6 @@ public class BasePage extends SharedSD {
         }
     }
 }
+=======
+}
+>>>>>>> 2b99fe0cb4af94feeff89402d13bfb3501af0583

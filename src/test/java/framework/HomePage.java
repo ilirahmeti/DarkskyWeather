@@ -6,7 +6,7 @@ public class HomePage extends BasePage {
 
     private By timeMachineButton = By.xpath("//a[contains(text(),'Maps')]");
     private By hours = By.xpath("//div[@class='hours']//span[2]");
-    private By timeLineButton = By.className("button");
+    private By timeLineButton = By.xpath("/html[1]/body[1]/div[8]/div[2]/a[1]");
     private By todaysBar = By.xpath("//body[@class='forecast']/div[@id='week']/a[1]/span[3]/span[1]/*[1]");
     private By lowesTempToday = By.xpath("//a[@class='day revealed']//descendant::span[5]");
     private By highesTempToday = By.xpath("//a[@class='day revealed']//descendant::span[3][@class='maxTemp']");
@@ -36,6 +36,7 @@ public class HomePage extends BasePage {
     }
 
     public void clickOnTimelineButton() {
+<<<<<<< HEAD
 //        scroll();
 //        try {
 //            Thread.sleep(1);
@@ -43,6 +44,9 @@ public class HomePage extends BasePage {
 //            e.printStackTrace();
 //        }
         waitThenClick(timeLineButton);
+=======
+        clickOn(timeLineButton);
+>>>>>>> 2b99fe0cb4af94feeff89402d13bfb3501af0583
     }
 
     public boolean theDatesEquals() {
