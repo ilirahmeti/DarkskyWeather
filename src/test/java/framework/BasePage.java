@@ -104,9 +104,13 @@ public class BasePage extends SharedSD {
     }
 
     public void waitThenClick(By locator){
-        WebElement element = browser(locator);
-        WebDriverWait wait = new WebDriverWait(getDriver(),10);
-        wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
-        element.click();
+        try {
+            WebElement element = browser(locator);
+            WebDriverWait wait = new WebDriverWait(getDriver(),10);
+            wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+            element.click();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 }
