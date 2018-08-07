@@ -36,7 +36,6 @@ public class HomePage extends BasePage {
     }
 
     public void clickOnTimelineButton() {
-<<<<<<< HEAD
 //        scroll();
 //        try {
 //            Thread.sleep(1);
@@ -44,9 +43,8 @@ public class HomePage extends BasePage {
 //            e.printStackTrace();
 //        }
         waitThenClick(timeLineButton);
-=======
+        
         clickOn(timeLineButton);
->>>>>>> 2b99fe0cb4af94feeff89402d13bfb3501af0583
     }
 
     public boolean theDatesEquals() {
