@@ -42,7 +42,7 @@ public class HomePage extends BasePage {
 //        } catch (InterruptedException e) {
 //            e.printStackTrace();
 //        }
-        waitThenClick(timeLineButton);
+//         waitThenClick(timeLineButton);
         
         clickOn(timeLineButton);
     }
