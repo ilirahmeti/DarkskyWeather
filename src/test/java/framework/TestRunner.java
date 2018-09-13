@@ -12,11 +12,9 @@ import org.junit.runner.RunWith;
         snippets = SnippetType.CAMELCASE,
 
         features = {"src/test/Resources/Features"},
-<<<<<<< HEAD
-        tags = {"@Darksky-3"},
-=======
+
         tags = {"@Darksky"},
->>>>>>> darksky2
+
         glue = {"stepdefinition"}
 )
 

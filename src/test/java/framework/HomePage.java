@@ -36,10 +36,6 @@ public class HomePage extends BasePage {
     }
 
     public void clickOnTimelineButton() {
-<<<<<<< HEAD
-=======
-
->>>>>>> darksky2
         clickOn(timeLineButton);
     }
 
