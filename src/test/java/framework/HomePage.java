@@ -12,7 +12,7 @@ public class HomePage extends BasePage {
     private By highesTempToday = By.xpath("//a[@class='day revealed']//descendant::span[3][@class='maxTemp']");
     private By lowesTempTodayExpand = By.xpath("//div[@class='dayDetails revealed']//div[@class='dayExtras']//descendant::span[2][@class='temp']");
     private By highesTempTodayExpand = By.xpath("//div[@class='dayDetails revealed']//div[@class='dayExtras']//descendant::span[6]");
-    private By calendarDates = By.xpath("//td[@class='is-today']");
+    private By calendarDates = By.xpath("//td[@class='is-today']//descendant:: button");
 
     public String getHomeVerification() {
         return getText(timeMachineButton);
