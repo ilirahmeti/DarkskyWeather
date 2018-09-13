@@ -1,36 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<ns2:test-suite start="1532660869628" stop="1532660873298" version="1.4.15" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+<ns2:test-suite start="1536758352685" stop="1536758355810" version="1.4.15" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
     <name>Verify Time Machine Calendar</name>
     <title>Verify Time Machine Calendar</title>
     <test-cases>
-        <test-case start="1532660869781" stop="1532660869783" status="passed">
-            <name>Given I am on Darksky home page</name>
-            <title>Given I am on Darksky home page</title>
-            <steps/>
-            <attachments/>
-            <labels>
-                <label name="host" value="ilirs-MacBook-Pro-2.local"/>
-                <label name="thread" value="17890@ilirs-MacBook-Pro-2.local.main(1)"/>
-            </labels>
-        </test-case>
-        <test-case start="1532660869951" stop="1532660869951" status="passed">
+        <test-case start="1536758352686" stop="1536758352686" status="passed">
             <name>When I click on Time Machine</name>
             <title>When I click on Time Machine</title>
             <steps/>
             <attachments/>
             <labels>
                 <label name="host" value="ilirs-MacBook-Pro-2.local"/>
-                <label name="thread" value="17890@ilirs-MacBook-Pro-2.local.main(1)"/>
+                <label name="thread" value="30022@ilirs-MacBook-Pro-2.local.main(1)"/>
             </labels>
         </test-case>
-        <test-case start="1532660870201" stop="1532660870201" status="passed">
+        <test-case start="1536758352716" stop="1536758352716" status="passed">
             <name>Then I verify date is selected to todays date</name>
             <title>Then I verify date is selected to todays date</title>
             <steps/>
             <attachments/>
             <labels>
                 <label name="host" value="ilirs-MacBook-Pro-2.local"/>
-                <label name="thread" value="17890@ilirs-MacBook-Pro-2.local.main(1)"/>
+                <label name="thread" value="30022@ilirs-MacBook-Pro-2.local.main(1)"/>
             </labels>
         </test-case>
     </test-cases>

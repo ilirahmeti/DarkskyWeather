@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1536758337664" stop="1536758341035" version="1.4.15" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Verify timline is displayed in correct format</name>
+    <title>Verify timline is displayed in correct format</title>
+    <test-cases>
+        <test-case start="1536758337856" stop="1536758337858" status="passed">
+            <name>Then I verify timeline is displayed with two hours incremented</name>
+            <title>Then I verify timeline is displayed with two hours incremented</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="ilirs-MacBook-Pro-2.local"/>
+                <label name="thread" value="30022@ilirs-MacBook-Pro-2.local.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Verify timline is displayed in correct format"/>
+        <label name="feature" value="HomePage verifications"/>
+        <label name="framework" value="CucumberJVM"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

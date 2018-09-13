@@ -98,5 +98,12 @@ public class BasePage extends SharedSD {
             return false;
         }
     }
+<<<<<<< HEAD
 }
 
+=======
+
+}
+
+
+>>>>>>> darksky2

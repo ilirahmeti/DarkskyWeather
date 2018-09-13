@@ -35,6 +35,7 @@ public class SharedSD {
                     break;
                 case "internetExplorer":
                     capabilities = new DesiredCapabilities().internetExplorer();
+                    break;
             }
             capabilities.setCapability("platform", configReader.getPlatform());
             capabilities.setCapability("version", configReader.getVersion());
