@@ -2,6 +2,7 @@ framework/BasePage$1.class
 stepdefinition/SharedSD.class
 utility/ConfigReader.class
 stepdefinition/DarkskySD.class
+framework/AllureUtil.class
 framework/TestRunner.class
 framework/HomePage.class
 framework/BasePage.class

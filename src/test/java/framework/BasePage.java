@@ -98,23 +98,7 @@ public class BasePage extends SharedSD {
             return false;
         }
     }
-<<<<<<< HEAD
 
-    public void scroll(){
-        ((JavascriptExecutor) getDriver()).executeScript("window.scrollBy(0,750)");
-    }
+}
 
-    public void waitThenClick(By locator){
-        try {
-            WebElement element = browser(locator);
-            WebDriverWait wait = new WebDriverWait(getDriver(),10);
-            wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
-            element.click();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-}
-=======
-}
->>>>>>> 2b99fe0cb4af94feeff89402d13bfb3501af0583
+
